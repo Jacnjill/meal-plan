@@ -1,578 +1,4154 @@
 {
+  "notes": "Optional for Raja: eat between 12:00 and 18:00. Skip breakfast, add one breakfast item (2 eggs or Greek yoghurt with oats) to lunch at noon, small snack ~15:00, shared dinner at ~17:30. Same cooking and shop for both.",
   "currency": "GBP",
   "weeks": [
     {
-      "id": "2026-11-09",
-      "name": "Sample week",
+      "id": "2026-11-15",
+      "name": "15–21 November",
       "days": [
-        {
-          "date": "2026-11-09",
-          "weekday": "Monday",
-          "meals": {
-            "breakfast": {
-              "name": "Yoghurt with honey, walnuts, and berries",
-              "ingredients": [
-                { "item": "Greek yoghurt", "qty": "400g" },
-                { "item": "Honey", "qty": "2 tsp" },
-                { "item": "Walnuts", "qty": "30g" },
-                { "item": "Blueberries", "qty": "150g" }
-              ],
-              "steps": [
-                "Share the yoghurt between two bowls.",
-                "Top with blueberries and walnuts.",
-                "Drizzle the honey over the top."
-              ],
-              "portions": {
-                "raja": "A full bowl",
-                "laurence": "A smaller bowl"
-              },
-              "kcal": 420
-            },
-            "lunch": {
-              "name": "Lentil and tomato soup with bread",
-              "ingredients": [
-                { "item": "Red lentils", "qty": "200g" },
-                { "item": "Tinned tomatoes", "qty": "1 tin" },
-                { "item": "Onion", "qty": "1" },
-                { "item": "Carrot", "qty": "1" },
-                { "item": "Garlic", "qty": "2 cloves" },
-                { "item": "Vegetable stock", "qty": "750ml" },
-                { "item": "Olive oil", "qty": "1 tbsp" },
-                { "item": "Wholemeal bread", "qty": "2 slices" }
-              ],
-              "steps": [
-                "Warm the oil and soften the onion, carrot, and garlic for about 8 minutes.",
-                "Stir in the tomatoes, lentils, and stock. Simmer for 25 minutes, until the lentils are soft.",
-                "Loosen with a splash of water if you want, and season to taste.",
-                "Serve with bread. Cool the rest of the pot for Friday."
-              ],
-              "portions": {
-                "raja": "A deep bowl and a slice of bread",
-                "laurence": "A regular bowl and a slice of bread"
-              },
-              "kcal": 480
-            },
-            "dinner": {
-              "name": "Lemon chicken with rice and broccoli",
-              "ingredients": [
-                { "item": "Chicken thighs", "qty": "3" },
-                { "item": "Lemon", "qty": "1" },
-                { "item": "Garlic", "qty": "2 cloves" },
-                { "item": "Olive oil", "qty": "1 tbsp" },
-                { "item": "Basmati rice", "qty": "160g dry" },
-                { "item": "Broccoli", "qty": "1 head" }
-              ],
-              "steps": [
-                "Heat the oven to 200°C. Toss the chicken with oil, lemon zest and juice, and garlic.",
-                "Roast for 35 minutes, until the chicken is cooked through.",
-                "Simmer the rice until tender, then drain.",
-                "Steam the broccoli for the last 5 minutes. Plate it with the rice, chicken, and pan juices."
-              ],
-              "portions": {
-                "raja": "Two thighs and a generous scoop of rice",
-                "laurence": "One thigh and a regular scoop of rice"
-              },
-              "kcal": 640
-            }
-          }
-        },
-        {
-          "date": "2026-11-10",
-          "weekday": "Tuesday",
-          "meals": {
-            "breakfast": {
-              "name": "Porridge with banana and cinnamon",
-              "ingredients": [
-                { "item": "Porridge oats", "qty": "80g" },
-                { "item": "Milk", "qty": "500ml" },
-                { "item": "Banana", "qty": "1" },
-                { "item": "Cinnamon", "qty": "a pinch" }
-              ],
-              "steps": [
-                "Stir the oats and milk in a pan over a medium heat.",
-                "Simmer, stirring, for about 5 minutes until creamy.",
-                "Slice the banana over the top and dust with cinnamon."
-              ],
-              "portions": {
-                "raja": "A full bowl and half the banana",
-                "laurence": "A smaller bowl and half the banana"
-              },
-              "kcal": 390
-            },
-            "lunch": {
-              "name": "Hummus, roast peppers, and pitta",
-              "ingredients": [
-                { "item": "Peppers", "qty": "2" },
-                { "item": "Pitta breads", "qty": "3" },
-                { "item": "Hummus", "qty": "1 tub" },
-                { "item": "Cucumber", "qty": "half" },
-                { "item": "Olive oil", "qty": "1 tsp" }
-              ],
-              "steps": [
-                "Heat the oven to 200°C. Cut the peppers into strips, toss with oil, and roast for 20 minutes.",
-                "Warm the pittas.",
-                "Serve the hummus and peppers with cucumber on the side."
-              ],
-              "portions": {
-                "raja": "Two pittas",
-                "laurence": "One pitta"
-              },
-              "kcal": 520
-            },
-            "dinner": {
-              "name": "Salmon, new potatoes, and broccoli",
-              "ingredients": [
-                { "item": "Salmon fillets", "qty": "2" },
-                { "item": "New potatoes", "qty": "500g" },
-                { "item": "Broccoli", "qty": "1 small head" },
-                { "item": "Lemon", "qty": "half" },
-                { "item": "Butter", "qty": "a small knob" }
-              ],
-              "steps": [
-                "Boil the potatoes in salted water for about 15 minutes, until tender.",
-                "Heat the oven to 200°C and bake the salmon for 12 minutes.",
-                "Steam the broccoli.",
-                "Serve with butter on the potatoes and lemon on the salmon."
-              ],
-              "portions": {
-                "raja": "The larger fillet and a bigger share of the potatoes",
-                "laurence": "The smaller fillet and a regular share of the potatoes"
-              },
-              "kcal": 610
-            }
-          }
-        },
-        {
-          "date": "2026-11-11",
-          "weekday": "Wednesday",
-          "meals": {
-            "breakfast": {
-              "name": "Eggs on toast with tomatoes",
-              "ingredients": [
-                { "item": "Eggs", "qty": "3" },
-                { "item": "Wholemeal bread", "qty": "3 slices" },
-                { "item": "Tomatoes", "qty": "2" },
-                { "item": "Butter", "qty": "a scrape per slice" }
-              ],
-              "steps": [
-                "Toast the bread and butter it.",
-                "Fry or poach the eggs.",
-                "Halve the tomatoes and warm them in the same pan.",
-                "Serve the eggs and tomatoes on the toast."
-              ],
-              "portions": {
-                "raja": "Two eggs and two slices of toast",
-                "laurence": "One egg and one slice of toast"
-              },
-              "kcal": 430
-            },
-            "lunch": {
-              "name": "Cheddar and salad sandwich",
-              "ingredients": [
-                { "item": "Wholemeal bread", "qty": "6 slices" },
-                { "item": "Cheddar", "qty": "80g" },
-                { "item": "Salad leaves", "qty": "a handful" },
-                { "item": "Cucumber", "qty": "a few slices" },
-                { "item": "Tomato", "qty": "1" }
-              ],
-              "steps": [
-                "Slice the cheddar and tomato.",
-                "Build the sandwiches with leaves and cucumber.",
-                "Cut and serve."
-              ],
-              "portions": {
-                "raja": "Two sandwiches",
-                "laurence": "One sandwich"
-              },
-              "kcal": 510
-            },
-            "dinner": {
-              "name": "Chickpea and spinach curry with rice",
-              "ingredients": [
-                { "item": "Onion", "qty": "1" },
-                { "item": "Garlic", "qty": "2 cloves" },
-                { "item": "Fresh ginger", "qty": "a thumb" },
-                { "item": "Curry powder", "qty": "1 tbsp" },
-                { "item": "Tinned tomatoes", "qty": "1 tin" },
-                { "item": "Chickpeas", "qty": "2 tins, drained" },
-                { "item": "Spinach", "qty": "2 handfuls" },
-                { "item": "Basmati rice", "qty": "160g dry" },
-                { "item": "Olive oil", "qty": "1 tbsp" }
-              ],
-              "steps": [
-                "Soften the onion in oil, then stir in the garlic, ginger, and curry powder for a minute.",
-                "Add the tomatoes and chickpeas. Simmer for 15 minutes.",
-                "Stir through the spinach until it wilts.",
-                "Cook the rice and serve it beside the curry."
-              ],
-              "portions": {
-                "raja": "A full bowl of curry and rice",
-                "laurence": "A regular bowl of each"
-              },
-              "kcal": 580
-            }
-          }
-        },
-        {
-          "date": "2026-11-12",
-          "weekday": "Thursday",
-          "meals": {
-            "breakfast": {
-              "name": "Apple overnight oats",
-              "ingredients": [
-                { "item": "Porridge oats", "qty": "80g" },
-                { "item": "Milk", "qty": "300ml" },
-                { "item": "Greek yoghurt", "qty": "150g" },
-                { "item": "Apple", "qty": "1" },
-                { "item": "Cinnamon", "qty": "a pinch" }
-              ],
-              "steps": [
-                "The night before, stir the oats, milk, yoghurt, and cinnamon in two jars.",
-                "In the morning, grate or slice the apple over the top."
-              ],
-              "portions": {
-                "raja": "The larger jar",
-                "laurence": "The smaller jar"
-              },
-              "kcal": 400
-            },
-            "lunch": {
-              "name": "Spinach and tomato omelette",
-              "ingredients": [
-                { "item": "Eggs", "qty": "5" },
-                { "item": "Spinach", "qty": "a handful" },
-                { "item": "Tomatoes", "qty": "2" },
-                { "item": "Butter", "qty": "a small knob" }
-              ],
-              "steps": [
-                "Whisk the eggs.",
-                "Warm the tomatoes and spinach in butter until the spinach wilts.",
-                "Pour in the eggs and cook gently until just set, then fold and share."
-              ],
-              "portions": {
-                "raja": "About three eggs' worth",
-                "laurence": "About two eggs' worth"
-              },
-              "kcal": 450
-            },
-            "dinner": {
-              "name": "Turkey meatballs with pasta and salad",
-              "ingredients": [
-                { "item": "Turkey mince", "qty": "500g" },
-                { "item": "Onion", "qty": "half, finely chopped" },
-                { "item": "Garlic", "qty": "1 clove" },
-                { "item": "Pasta", "qty": "180g" },
-                { "item": "Salad leaves", "qty": "a bowlful" },
-                { "item": "Tomato", "qty": "1" },
-                { "item": "Olive oil", "qty": "1 tbsp" }
-              ],
-              "steps": [
-                "Mix the mince with the onion and garlic. Roll into small meatballs.",
-                "Fry them in oil until browned and cooked through, about 12 minutes.",
-                "Boil the pasta and toss it with the meatballs.",
-                "Serve with a tomato and leaf salad on the side."
-              ],
-              "portions": {
-                "raja": "A generous plate of pasta and meatballs",
-                "laurence": "A regular plate"
-              },
-              "kcal": 640
-            }
-          }
-        },
-        {
-          "date": "2026-11-13",
-          "weekday": "Friday",
-          "meals": {
-            "breakfast": {
-              "name": "Berry oat smoothie",
-              "ingredients": [
-                { "item": "Banana", "qty": "1" },
-                { "item": "Frozen mixed berries", "qty": "150g" },
-                { "item": "Porridge oats", "qty": "40g" },
-                { "item": "Milk", "qty": "400ml" }
-              ],
-              "steps": [
-                "Put everything in a blender.",
-                "Blend until smooth.",
-                "Pour into two glasses."
-              ],
-              "portions": {
-                "raja": "The taller glass",
-                "laurence": "The smaller glass"
-              },
-              "kcal": 370
-            },
-            "lunch": {
-              "name": "Lentil soup from Monday, with an apple",
-              "ingredients": [
-                { "item": "Leftover lentil and tomato soup", "qty": "2 mugs" },
-                { "item": "Apples", "qty": "2" }
-              ],
-              "steps": [
-                "Reheat the soup until it is piping hot.",
-                "Serve a mug each, with an apple."
-              ],
-              "portions": {
-                "raja": "A large mug and an apple",
-                "laurence": "A regular mug and an apple"
-              },
-              "kcal": 450
-            },
-            "dinner": {
-              "name": "Baked cod, couscous, and peppers",
-              "ingredients": [
-                { "item": "Cod fillets", "qty": "2" },
-                { "item": "Couscous", "qty": "120g" },
-                { "item": "Pepper", "qty": "1" },
-                { "item": "Lemon", "qty": "half" },
-                { "item": "Olive oil", "qty": "1 tbsp" },
-                { "item": "Fresh parsley", "qty": "a small handful" }
-              ],
-              "steps": [
-                "Heat the oven to 200°C. Slice the pepper, toss with oil, and roast for 15 minutes.",
-                "Nestle the cod among the peppers, add lemon, and bake for 12 minutes.",
-                "Cover the couscous with just-boiled water, cover the bowl, and leave it for 5 minutes.",
-                "Fluff the couscous, stir in the parsley, and serve the fish and peppers on top."
-              ],
-              "portions": {
-                "raja": "The larger fillet and a full scoop of couscous",
-                "laurence": "The smaller fillet and a regular scoop of couscous"
-              },
-              "kcal": 560
-            }
-          }
-        },
-        {
-          "date": "2026-11-14",
-          "weekday": "Saturday",
-          "meals": {
-            "breakfast": {
-              "name": "Mushrooms and eggs on toast",
-              "ingredients": [
-                { "item": "Mushrooms", "qty": "250g" },
-                { "item": "Eggs", "qty": "3" },
-                { "item": "Wholemeal bread", "qty": "3 slices" },
-                { "item": "Butter", "qty": "a knob" },
-                { "item": "Fresh parsley", "qty": "a few leaves" }
-              ],
-              "steps": [
-                "Slice the mushrooms and fry them in butter until golden.",
-                "Fry or poach the eggs.",
-                "Toast the bread.",
-                "Serve the mushrooms and eggs on the toast, with parsley on top."
-              ],
-              "portions": {
-                "raja": "Two eggs, a large share of the mushrooms, and two slices of toast",
-                "laurence": "One egg, a smaller share of the mushrooms, and one slice of toast"
-              },
-              "kcal": 480
-            },
-            "lunch": {
-              "name": "Jacket potato with beans and salad",
-              "ingredients": [
-                { "item": "Baking potatoes", "qty": "2" },
-                { "item": "Baked beans", "qty": "1 tin" },
-                { "item": "Cheddar", "qty": "a small grating" },
-                { "item": "Salad leaves", "qty": "a handful" },
-                { "item": "Cucumber", "qty": "a few slices" }
-              ],
-              "steps": [
-                "Heat the oven to 200°C. Prick the potatoes and bake for about an hour, until soft.",
-                "Heat the beans.",
-                "Split the potatoes, spoon over the beans, and add a little cheddar.",
-                "Serve with the salad."
-              ],
-              "portions": {
-                "raja": "The larger potato and extra beans",
-                "laurence": "The smaller potato"
-              },
-              "kcal": 540
-            },
-            "dinner": {
-              "name": "Chicken traybake with potatoes and carrots",
-              "ingredients": [
-                { "item": "Chicken thighs", "qty": "6" },
-                { "item": "New potatoes", "qty": "600g" },
-                { "item": "Carrots", "qty": "3" },
-                { "item": "Onion", "qty": "1" },
-                { "item": "Garlic", "qty": "2 cloves" },
-                { "item": "Lemon", "qty": "half" },
-                { "item": "Olive oil", "qty": "1 tbsp" }
-              ],
-              "steps": [
-                "Heat the oven to 200°C. Cut the potatoes, carrots, and onion into chunks.",
-                "Tumble them into a roasting tin with the chicken, garlic, lemon, and oil. Season.",
-                "Roast for 45 minutes, turning once, until the chicken is cooked and the potatoes are golden.",
-                "Keep the leftovers for Sunday lunch."
-              ],
-              "portions": {
-                "raja": "Two thighs and plenty of potatoes",
-                "laurence": "One thigh and a regular share of the vegetables"
-              },
-              "kcal": 680
-            }
-          }
-        },
         {
           "date": "2026-11-15",
           "weekday": "Sunday",
           "meals": {
             "breakfast": {
-              "name": "Pancakes with berries and yoghurt",
+              "name": "Banana porridge with pumpkin seeds",
               "ingredients": [
-                { "item": "Plain flour", "qty": "150g" },
-                { "item": "Milk", "qty": "300ml" },
-                { "item": "Egg", "qty": "1" },
-                { "item": "Frozen mixed berries", "qty": "a handful, thawed" },
-                { "item": "Greek yoghurt", "qty": "200g" }
+                {
+                  "item": "Porridge oats",
+                  "qty": "105g"
+                },
+                {
+                  "item": "Vitamin D-fortified semi-skimmed milk",
+                  "qty": "450ml"
+                },
+                {
+                  "item": "Pumpkin seeds",
+                  "qty": "25g"
+                },
+                {
+                  "item": "Bananas",
+                  "qty": "2 bananas"
+                }
               ],
               "steps": [
-                "Whisk the flour, milk, and egg into a smooth batter.",
-                "Fry small pancakes in a lightly oiled pan until bubbles appear, then flip them.",
-                "Serve with yoghurt and berries."
+                "Simmer the oats. Tip the oats and fortified semi-skimmed milk into a pan and cook for about 5 minutes, stirring.",
+                "Finish the bowls. Share into two bowls, slice the banana on top, and sprinkle the pumpkin seeds."
               ],
               "portions": {
-                "raja": "Three pancakes",
-                "laurence": "Two pancakes"
+                "raja": "60g oats, 250ml fortified milk, 1 banana, 15g pumpkin seeds",
+                "laurence": "45g oats, 200ml milk, 1 small banana, 10g seeds"
               },
-              "kcal": 450
+              "kcal": 420
             },
             "lunch": {
-              "name": "Saturday's chicken with salad",
+              "name": "Mild chicken palak with brown rice",
               "ingredients": [
-                { "item": "Leftover chicken traybake", "qty": "the remainder" },
-                { "item": "Salad leaves", "qty": "a handful" },
-                { "item": "Tomato", "qty": "1" },
-                { "item": "Olive oil", "qty": "a teaspoon" }
+                {
+                  "item": "Halal chicken breast or skinless thigh",
+                  "qty": "500g"
+                },
+                {
+                  "item": "Tinned chopped tomatoes",
+                  "qty": "1 tin"
+                },
+                {
+                  "item": "Onion",
+                  "qty": "1"
+                },
+                {
+                  "item": "Garlic",
+                  "qty": "2 cloves"
+                },
+                {
+                  "item": "Ginger",
+                  "qty": "a little"
+                },
+                {
+                  "item": "Oil",
+                  "qty": "1 tsp"
+                },
+                {
+                  "item": "Cumin",
+                  "qty": "1 tsp"
+                },
+                {
+                  "item": "Turmeric",
+                  "qty": "1 tsp"
+                },
+                {
+                  "item": "Garam masala",
+                  "qty": "a pinch"
+                },
+                {
+                  "item": "Frozen spinach",
+                  "qty": "400g"
+                },
+                {
+                  "item": "Lemon",
+                  "qty": "1"
+                },
+                {
+                  "item": "Brown rice",
+                  "qty": "260g dry"
+                }
               ],
               "steps": [
-                "Warm the chicken and vegetables in the oven until hot.",
-                "Toss the leaves and tomato with a little oil.",
-                "Serve the warm traybake beside the salad."
+                "Start the rice. Rinse the brown rice and boil according to the pack, about 25 minutes.",
+                "Cook the chicken. Gently fry 1 chopped onion, 2 crushed garlic cloves and a little grated ginger in 1 tsp oil with 1 tsp cumin and 1 tsp turmeric. Add the chicken and cook until the outside is no longer pink. No chilli.",
+                "Simmer. Add 1 tin chopped tomatoes and 400g frozen spinach. Simmer 15 minutes until the chicken is cooked through. Finish with a pinch of garam masala if you have it, and lemon.",
+                "Cook one large pan for four portions and chill half for Monday lunch. Use 500g diced halal chicken breast or skinless thigh. Squeeze lemon over each plate."
               ],
               "portions": {
-                "raja": "A larger plate",
-                "laurence": "A regular plate"
+                "raja": "75g dry brown rice (about 200g cooked) and a large plate of chicken palak",
+                "laurence": "55g dry rice (about 150g cooked) and a smaller plate"
+              },
+              "kcal": 530
+            },
+            "dinner": {
+              "name": "Mackerel with baked potatoes and peas",
+              "ingredients": [
+                {
+                  "item": "Lemon",
+                  "qty": "1"
+                },
+                {
+                  "item": "Low-fat natural yogurt",
+                  "qty": "to serve"
+                },
+                {
+                  "item": "Frozen peas",
+                  "qty": "220g"
+                },
+                {
+                  "item": "Potatoes",
+                  "qty": "520g"
+                },
+                {
+                  "item": "Tinned mackerel",
+                  "qty": "about 2 tins"
+                }
+              ],
+              "steps": [
+                "Cook the potatoes. Bake at 200°C for about 30 minutes, or microwave until soft and crisp in the oven for 10 minutes.",
+                "Heat the peas. Cook frozen peas in a little boiling water for 3 minutes, then drain.",
+                "Plate. Split the potatoes, flake over the mackerel (tomato sauce or a chopped tomato is fine), add peas, lemon and a spoon of yogurt."
+              ],
+              "portions": {
+                "raja": "1 large potato (about 300g), 1 tin mackerel, 120g peas, lemon and a spoon of yogurt",
+                "laurence": "About 220g potato, most of 1 tin mackerel, 100g peas, lemon and yogurt"
+              },
+              "kcal": 600
+            }
+          }
+        },
+        {
+          "date": "2026-11-16",
+          "weekday": "Monday",
+          "meals": {
+            "breakfast": {
+              "name": "Spinach and tomato omelette",
+              "ingredients": [
+                {
+                  "item": "Frozen spinach",
+                  "qty": "a handful"
+                },
+                {
+                  "item": "Oranges",
+                  "qty": "2 oranges"
+                },
+                {
+                  "item": "Eggs",
+                  "qty": "5 eggs"
+                },
+                {
+                  "item": "Wholemeal bread",
+                  "qty": "3 slices"
+                },
+                {
+                  "item": "Tomatoes",
+                  "qty": "2 tomatoes"
+                }
+              ],
+              "steps": [
+                "Wilt the spinach. Heat the frozen spinach in a non-stick pan until the water cooks off.",
+                "Cook the omelettes. Beat the eggs, pour into the pan with chopped tomato, and cook gently until just set. Toast the bread. Eat the orange on the side."
+              ],
+              "portions": {
+                "raja": "3 eggs, 80g frozen spinach, 1 tomato, 2 slices wholemeal toast, 1 orange",
+                "laurence": "2 eggs, 60g spinach, 1 tomato, 1 slice toast, 1 orange"
+              },
+              "kcal": 420
+            },
+            "lunch": {
+              "name": "Leftover chicken palak with rice and salad",
+              "ingredients": [
+                {
+                  "item": "Cooked brown rice",
+                  "qty": "350g, from yesterday"
+                },
+                {
+                  "item": "Cucumber",
+                  "qty": "1"
+                },
+                {
+                  "item": "Lemon",
+                  "qty": "1"
+                },
+                {
+                  "item": "Leftover chicken palak",
+                  "qty": "2 portions"
+                },
+                {
+                  "item": "Tomatoes",
+                  "qty": "1 tomato"
+                }
+              ],
+              "steps": [
+                "Reheat. Warm yesterday's chicken palak and rice until piping hot, adding a splash of water if needed. Make sure the chicken is steaming hot all the way through.",
+                "Make a quick salad. Chop cucumber and tomato, dress with lemon, and serve alongside."
+              ],
+              "portions": {
+                "raja": "Reheated chicken palak with about 200g cooked rice, cucumber-tomato salad and lemon",
+                "laurence": "A smaller plate of chicken palak and about 150g cooked rice, plus salad and lemon"
               },
               "kcal": 520
             },
             "dinner": {
-              "name": "Egg fried rice with peas",
+              "name": "Mild masoor dal with rice and raita",
               "ingredients": [
-                { "item": "Basmati rice", "qty": "160g dry, cooked and cooled" },
-                { "item": "Eggs", "qty": "3" },
-                { "item": "Frozen peas", "qty": "150g" },
-                { "item": "Carrot", "qty": "1, diced" },
-                { "item": "Onion", "qty": "half" },
-                { "item": "Garlic", "qty": "1 clove" },
-                { "item": "Soy sauce", "qty": "1 tbsp" },
-                { "item": "Olive oil", "qty": "1 tbsp" }
+                {
+                  "item": "Red lentils",
+                  "qty": "300g"
+                },
+                {
+                  "item": "Tinned chopped tomatoes",
+                  "qty": "1 tin"
+                },
+                {
+                  "item": "Onion",
+                  "qty": "1"
+                },
+                {
+                  "item": "Garlic",
+                  "qty": "2 cloves"
+                },
+                {
+                  "item": "Ginger",
+                  "qty": "a little"
+                },
+                {
+                  "item": "Oil",
+                  "qty": "1 tsp"
+                },
+                {
+                  "item": "Cumin",
+                  "qty": "1 tsp"
+                },
+                {
+                  "item": "Turmeric",
+                  "qty": "1 tsp"
+                },
+                {
+                  "item": "Frozen spinach",
+                  "qty": "a handful"
+                },
+                {
+                  "item": "Water",
+                  "qty": "enough to cook"
+                },
+                {
+                  "item": "Lemon",
+                  "qty": "1"
+                },
+                {
+                  "item": "Low-fat natural yogurt",
+                  "qty": "140g"
+                },
+                {
+                  "item": "Cucumber",
+                  "qty": "1"
+                },
+                {
+                  "item": "Brown rice",
+                  "qty": "260g dry"
+                }
               ],
               "steps": [
-                "Cook the rice ahead if you can, and let it cool.",
-                "Fry the onion, carrot, and garlic in oil for a few minutes.",
-                "Add the rice and peas and stir until everything is hot.",
-                "Push the rice aside, scramble the eggs in the pan, then fold them through with the soy sauce."
+                "Cook the lentils and rice. Rinse 300g red lentils and simmer with 1 tsp turmeric and plenty of water for 15–20 minutes. Boil the rice in a second pan.",
+                "Add a mild tarka. Fry 1 chopped onion, garlic and ginger in 1 tsp oil with 1 tsp cumin. Stir in 1 tin tomatoes and a handful of frozen spinach, then mix into the dal.",
+                "Stir the raita. Grate cucumber into yogurt with a pinch of cumin and lemon. No chilli.",
+                "Simmer enough dal for four portions and chill half for Tuesday lunch."
               ],
               "portions": {
-                "raja": "A full bowl",
-                "laurence": "A smaller bowl"
+                "raja": "75g dry rice, a large ladle of dal, 80g yogurt raita",
+                "laurence": "55g dry rice, a smaller ladle of dal, 60g raita"
               },
-              "kcal": 590
+              "kcal": 600
+            }
+          }
+        },
+        {
+          "date": "2026-11-17",
+          "weekday": "Tuesday",
+          "meals": {
+            "breakfast": {
+              "name": "Overnight oats with banana and berries",
+              "ingredients": [
+                {
+                  "item": "Porridge oats",
+                  "qty": "105g"
+                },
+                {
+                  "item": "Vitamin D-fortified semi-skimmed milk",
+                  "qty": "350ml"
+                },
+                {
+                  "item": "Frozen berries",
+                  "qty": "140g"
+                },
+                {
+                  "item": "Bananas",
+                  "qty": "2 bananas"
+                }
+              ],
+              "steps": [
+                "The night before. Mix the oats and milk in two containers and chill.",
+                "In the morning. Top with sliced banana and berries (thaw in the fridge overnight or for a few minutes)."
+              ],
+              "portions": {
+                "raja": "60g oats, 200ml fortified milk, 1 banana, 80g frozen berries",
+                "laurence": "45g oats, 150ml milk, 1 small banana, 60g berries"
+              },
+              "kcal": 430
+            },
+            "lunch": {
+              "name": "Leftover dal with wholemeal bread and tomato salad",
+              "ingredients": [
+                {
+                  "item": "Wholemeal bread",
+                  "qty": "3 slices"
+                },
+                {
+                  "item": "Tomatoes",
+                  "qty": "1 tomato"
+                },
+                {
+                  "item": "Lemon",
+                  "qty": "1"
+                },
+                {
+                  "item": "Leftover dal",
+                  "qty": "2 portions"
+                }
+              ],
+              "steps": [
+                "Reheat the dal. Warm until piping hot, loosening with a little water if it has thickened.",
+                "Serve. Add a tomato salad with lemon and the bread."
+              ],
+              "portions": {
+                "raja": "A large bowl of dal, 2 slices wholemeal bread, tomato salad and lemon",
+                "laurence": "A smaller bowl of dal, 1 slice bread, salad and lemon"
+              },
+              "kcal": 520
+            },
+            "dinner": {
+              "name": "White-fish tray-bake with potatoes and mixed veg",
+              "ingredients": [
+                {
+                  "item": "Black pepper",
+                  "qty": "a pinch"
+                },
+                {
+                  "item": "Lemon",
+                  "qty": "1"
+                },
+                {
+                  "item": "White fish fillets",
+                  "qty": "270g"
+                },
+                {
+                  "item": "Frozen mixed vegetables",
+                  "qty": "350g"
+                },
+                {
+                  "item": "Potatoes",
+                  "qty": "350g"
+                },
+                {
+                  "item": "Oil",
+                  "qty": "1 tsp"
+                },
+                {
+                  "item": "Cumin",
+                  "qty": "1 tsp"
+                }
+              ],
+              "steps": [
+                "Heat the oven. Set it to 200°C. Cube the potatoes, toss with the oil on a tray, and roast for 10 minutes.",
+                "Add fish and veg. Add the frozen fillets and mixed vegetables. Season with cumin, black pepper and lemon. Bake 15–20 minutes, or until the fish is cooked through — follow the pack."
+              ],
+              "portions": {
+                "raja": "150g white fish, 200g potatoes, 200g frozen mixed vegetables, 1 tsp oil, lemon and a pinch of cumin",
+                "laurence": "120g fish, 150g potatoes, 150g vegetables, lemon and cumin"
+              },
+              "kcal": 600
+            }
+          }
+        },
+        {
+          "date": "2026-11-18",
+          "weekday": "Wednesday",
+          "meals": {
+            "breakfast": {
+              "name": "Scrambled eggs with tomato and toast",
+              "ingredients": [
+                {
+                  "item": "Vitamin D-fortified semi-skimmed milk",
+                  "qty": "a splash"
+                },
+                {
+                  "item": "Oranges",
+                  "qty": "2 oranges"
+                },
+                {
+                  "item": "Eggs",
+                  "qty": "5 eggs"
+                },
+                {
+                  "item": "Wholemeal bread",
+                  "qty": "3 slices"
+                },
+                {
+                  "item": "Tomatoes",
+                  "qty": "2 tomatoes"
+                }
+              ],
+              "steps": [
+                "Cook the tomato. Halve and grill or pan-cook the tomato until soft.",
+                "Scramble the eggs. Beat the eggs with a splash of milk and cook slowly in a non-stick pan. Toast the bread. Serve the orange on the side."
+              ],
+              "portions": {
+                "raja": "3 eggs, a splash of milk, 1 tomato, 2 slices wholemeal toast, 1 orange",
+                "laurence": "2 eggs, a splash of milk, 1 tomato, 1 slice toast, 1 orange"
+              },
+              "kcal": 420
+            },
+            "lunch": {
+              "name": "Tuna and bean salad with lemon",
+              "ingredients": [
+                {
+                  "item": "Oil",
+                  "qty": "1 tsp"
+                },
+                {
+                  "item": "Black pepper",
+                  "qty": "a pinch"
+                },
+                {
+                  "item": "Lemon",
+                  "qty": "1"
+                },
+                {
+                  "item": "Tuna in spring water",
+                  "qty": "about 1.5 tins"
+                },
+                {
+                  "item": "Tinned beans",
+                  "qty": "about 1 tin"
+                },
+                {
+                  "item": "Cucumber",
+                  "qty": "1"
+                },
+                {
+                  "item": "Tomatoes",
+                  "qty": "1 tomato"
+                },
+                {
+                  "item": "Pepper",
+                  "qty": "1"
+                }
+              ],
+              "steps": [
+                "Drain and chop. Drain the tuna and beans. Chop the salad vegetables.",
+                "Toss. Mix everything with lemon, 1 tsp oil and black pepper. No chilli."
+              ],
+              "portions": {
+                "raja": "1 tin tuna, half a tin of beans, plenty of cucumber, tomato, carrot or pepper, 1 tsp olive oil and lemon",
+                "laurence": "About 80g tuna, a third of a tin of beans, the same salad vegetables, oil and lemon"
+              },
+              "kcal": 530
+            },
+            "dinner": {
+              "name": "Mild lean lamb keema with rice",
+              "ingredients": [
+                {
+                  "item": "Lean halal lamb mince",
+                  "qty": "350g"
+                },
+                {
+                  "item": "Tinned chopped tomatoes or frozen peas",
+                  "qty": "1 tin or 150g"
+                },
+                {
+                  "item": "Onion",
+                  "qty": "1"
+                },
+                {
+                  "item": "Garlic",
+                  "qty": "2 cloves"
+                },
+                {
+                  "item": "Ginger",
+                  "qty": "a little"
+                },
+                {
+                  "item": "Oil",
+                  "qty": "1 tsp"
+                },
+                {
+                  "item": "Cumin",
+                  "qty": "1 tsp"
+                },
+                {
+                  "item": "Turmeric",
+                  "qty": "1 tsp"
+                },
+                {
+                  "item": "Lemon",
+                  "qty": "1"
+                },
+                {
+                  "item": "Brown rice",
+                  "qty": "130g dry"
+                }
+              ],
+              "steps": [
+                "Start the rice. Boil the rice.",
+                "Cook the keema. Gently cook 1 chopped onion, garlic and ginger in 1 tsp oil with 1 tsp cumin and 1 tsp turmeric. Add 350g lean halal lamb mince, break it up, and cook until no longer pink. Spoon off any extra fat. Add 1 tin tomatoes or 150g peas, simmer 10 minutes, and finish with lemon."
+              ],
+              "portions": {
+                "raja": "75g dry rice and a large plate of keema (350g lean halal lamb mince is for both)",
+                "laurence": "55g dry rice and a smaller plate of keema"
+              },
+              "kcal": 600
+            }
+          }
+        },
+        {
+          "date": "2026-11-19",
+          "weekday": "Thursday",
+          "meals": {
+            "breakfast": {
+              "name": "Banana porridge and an orange",
+              "ingredients": [
+                {
+                  "item": "Porridge oats",
+                  "qty": "105g"
+                },
+                {
+                  "item": "Vitamin D-fortified semi-skimmed milk",
+                  "qty": "450ml"
+                },
+                {
+                  "item": "Bananas",
+                  "qty": "2 bananas"
+                },
+                {
+                  "item": "Oranges",
+                  "qty": "2 oranges"
+                }
+              ],
+              "steps": [
+                "Cook the porridge. Simmer oats and milk for about 5 minutes. Top with sliced banana and eat the orange on the side."
+              ],
+              "portions": {
+                "raja": "60g oats, 250ml fortified milk, 1 banana, 1 orange on the side",
+                "laurence": "45g oats, 200ml milk, 1 small banana, 1 orange"
+              },
+              "kcal": 420
+            },
+            "lunch": {
+              "name": "Sardines on toast with tomato and spinach salad",
+              "ingredients": [
+                {
+                  "item": "Lemon",
+                  "qty": "1"
+                },
+                {
+                  "item": "Frozen spinach",
+                  "qty": "a handful"
+                },
+                {
+                  "item": "Tinned sardines",
+                  "qty": "about 2 tins"
+                },
+                {
+                  "item": "Wholemeal bread",
+                  "qty": "3 to 4 slices"
+                },
+                {
+                  "item": "Tomatoes",
+                  "qty": "1 tomato"
+                }
+              ],
+              "steps": [
+                "Toast and top. Toast the bread and flake the sardines on top.",
+                "Make the salad. Toss tomato and some thawed frozen spinach with plenty of lemon.",
+                "Add lemon to the sardines and salad. Keep tea or coffee for later."
+              ],
+              "portions": {
+                "raja": "1 tin sardines, 2 slices wholemeal toast, a large tomato and spinach salad, lemon",
+                "laurence": "About three-quarters of a tin of sardines, 1 to 2 slices toast, salad and lemon"
+              },
+              "kcal": 530
+            },
+            "dinner": {
+              "name": "Mild chicken and vegetable curry with rice",
+              "ingredients": [
+                {
+                  "item": "Halal chicken breast or skinless thigh",
+                  "qty": "500g"
+                },
+                {
+                  "item": "Tinned chopped tomatoes",
+                  "qty": "1 tin"
+                },
+                {
+                  "item": "Onion",
+                  "qty": "1"
+                },
+                {
+                  "item": "Oil",
+                  "qty": "1 tsp"
+                },
+                {
+                  "item": "Cumin",
+                  "qty": "1 tsp"
+                },
+                {
+                  "item": "Turmeric",
+                  "qty": "1 tsp"
+                },
+                {
+                  "item": "Frozen spinach",
+                  "qty": "a handful"
+                },
+                {
+                  "item": "Frozen mixed vegetables",
+                  "qty": "300g"
+                },
+                {
+                  "item": "Water",
+                  "qty": "400ml"
+                },
+                {
+                  "item": "Lemon",
+                  "qty": "1"
+                },
+                {
+                  "item": "Brown rice",
+                  "qty": "260g dry"
+                }
+              ],
+              "steps": [
+                "Start the rice. Boil the brown rice as usual.",
+                "One-pan curry. Fry 1 chopped onion with 1 tsp cumin and 1 tsp turmeric in 1 tsp oil. Add 500g diced halal chicken and cook until the outside is no longer pink. Add 1 tin tomatoes, about 400ml water, 300g frozen mixed vegetables and a handful of frozen spinach. Simmer about 15 minutes until the chicken is cooked through. Finish with lemon.",
+                "Make four portions with 500g diced halal chicken and chill half for Friday lunch."
+              ],
+              "portions": {
+                "raja": "75g dry rice and a large bowl of curry",
+                "laurence": "55g dry rice and a smaller bowl"
+              },
+              "kcal": 600
+            }
+          }
+        },
+        {
+          "date": "2026-11-20",
+          "weekday": "Friday",
+          "meals": {
+            "breakfast": {
+              "name": "Eggs with spinach, toast and kiwi",
+              "ingredients": [
+                {
+                  "item": "Frozen spinach",
+                  "qty": "a handful"
+                },
+                {
+                  "item": "Kiwis",
+                  "qty": "2 kiwis"
+                },
+                {
+                  "item": "Eggs",
+                  "qty": "5 eggs"
+                },
+                {
+                  "item": "Wholemeal bread",
+                  "qty": "3 slices"
+                }
+              ],
+              "steps": [
+                "Cook the eggs and spinach. Boil, poach or softly fry the eggs (very little oil). Wilt the spinach in a pan. Toast the bread and serve the kiwi on the side."
+              ],
+              "portions": {
+                "raja": "3 eggs, 80g frozen spinach, 2 slices wholemeal toast, 1 kiwi",
+                "laurence": "2 eggs, 60g spinach, 1 slice toast, 1 kiwi"
+              },
+              "kcal": 420
+            },
+            "lunch": {
+              "name": "Leftover chicken and vegetable curry with rice and salad",
+              "ingredients": [
+                {
+                  "item": "Cooked brown rice",
+                  "qty": "350g, from yesterday"
+                },
+                {
+                  "item": "Lemon",
+                  "qty": "1"
+                },
+                {
+                  "item": "Leftover chicken and vegetable curry",
+                  "qty": "2 portions"
+                },
+                {
+                  "item": "Cucumber",
+                  "qty": "1"
+                },
+                {
+                  "item": "Tomatoes",
+                  "qty": "1 tomato"
+                }
+              ],
+              "steps": [
+                "Reheat. Warm the curry and rice until piping hot. Make sure the chicken is steaming hot all the way through. Add a chopped cucumber and tomato salad with lemon."
+              ],
+              "portions": {
+                "raja": "A large bowl of curry, about 200g cooked rice, salad and lemon",
+                "laurence": "A smaller bowl of curry, about 150g cooked rice, salad and lemon"
+              },
+              "kcal": 530
+            },
+            "dinner": {
+              "name": "Mackerel with couscous and mixed vegetables",
+              "ingredients": [
+                {
+                  "item": "Lemon",
+                  "qty": "1"
+                },
+                {
+                  "item": "Low-fat natural yogurt",
+                  "qty": "to serve"
+                },
+                {
+                  "item": "Frozen mixed vegetables",
+                  "qty": "270g"
+                },
+                {
+                  "item": "Tinned mackerel",
+                  "qty": "about 2 tins"
+                },
+                {
+                  "item": "Couscous",
+                  "qty": "105g dry"
+                }
+              ],
+              "steps": [
+                "Make the couscous. Put the couscous in a bowl, pour over boiling water to cover, and lid or plate it for 5 minutes, then fluff.",
+                "Heat the veg and mackerel. Cook the frozen vegetables. Flake the mackerel. Mix a little yogurt with lemon and plate together."
+              ],
+              "portions": {
+                "raja": "1 tin mackerel, 60g dry couscous, 150g frozen mixed vegetables, lemon yogurt",
+                "laurence": "About three-quarters of a tin of mackerel, 45g couscous, 120g vegetables, lemon yogurt"
+              },
+              "kcal": 600
+            }
+          }
+        },
+        {
+          "date": "2026-11-21",
+          "weekday": "Saturday",
+          "meals": {
+            "breakfast": {
+              "name": "Yogurt bowl with berries, seeds and oats",
+              "ingredients": [
+                {
+                  "item": "Porridge oats",
+                  "qty": "35g"
+                },
+                {
+                  "item": "Pumpkin seeds",
+                  "qty": "25g"
+                },
+                {
+                  "item": "Frozen berries",
+                  "qty": "140g"
+                },
+                {
+                  "item": "Low-fat natural yogurt",
+                  "qty": "350g"
+                }
+              ],
+              "steps": [
+                "Assemble. Spoon the yogurt into bowls and top with berries, seeds and a sprinkle of dry oats."
+              ],
+              "portions": {
+                "raja": "200g yogurt, 80g berries, 15g pumpkin seeds, 20g oats",
+                "laurence": "150g yogurt, 60g berries, 10g seeds, 15g oats"
+              },
+              "kcal": 420
+            },
+            "lunch": {
+              "name": "Mild chickpea salad with wholemeal pittas",
+              "ingredients": [
+                {
+                  "item": "Cumin",
+                  "qty": "1 tsp"
+                },
+                {
+                  "item": "Black pepper",
+                  "qty": "a pinch"
+                },
+                {
+                  "item": "Lemon",
+                  "qty": "1"
+                },
+                {
+                  "item": "Tinned chickpeas",
+                  "qty": "about 2 tins"
+                },
+                {
+                  "item": "Wholemeal pittas",
+                  "qty": "3 pittas"
+                },
+                {
+                  "item": "Cucumber",
+                  "qty": "1"
+                },
+                {
+                  "item": "Tomatoes",
+                  "qty": "1 tomato"
+                },
+                {
+                  "item": "Onion",
+                  "qty": "a little"
+                }
+              ],
+              "steps": [
+                "Mix the salad. Rinse the chickpeas and toss with chopped cucumber, tomato, a little raw onion, lemon, 1 tsp cumin and black pepper. No chilli.",
+                "Warm the pittas. Toast or dry-heat the pittas and serve alongside."
+              ],
+              "portions": {
+                "raja": "1 tin chickpeas, 2 pittas, cucumber, tomato, a little onion, lemon and cumin",
+                "laurence": "About three-quarters of a tin of chickpeas, 1 pitta, the same salad, lemon and cumin"
+              },
+              "kcal": 530
+            },
+            "dinner": {
+              "name": "Mild lean beef and spinach curry with pittas and salad",
+              "ingredients": [
+                {
+                  "item": "Lean halal beef mince",
+                  "qty": "350g"
+                },
+                {
+                  "item": "Tinned chopped tomatoes",
+                  "qty": "1 tin"
+                },
+                {
+                  "item": "Onion",
+                  "qty": "1 small"
+                },
+                {
+                  "item": "Garlic",
+                  "qty": "2 cloves"
+                },
+                {
+                  "item": "Ginger",
+                  "qty": "a little"
+                },
+                {
+                  "item": "Oil",
+                  "qty": "1 tsp"
+                },
+                {
+                  "item": "Cumin",
+                  "qty": "1 tsp"
+                },
+                {
+                  "item": "Turmeric",
+                  "qty": "1 tsp"
+                },
+                {
+                  "item": "Frozen spinach",
+                  "qty": "400g"
+                },
+                {
+                  "item": "Lemon",
+                  "qty": "1"
+                },
+                {
+                  "item": "Wholemeal pittas",
+                  "qty": "3 pittas"
+                }
+              ],
+              "steps": [
+                "Cook the mince. Gently cook 1 small onion, garlic and ginger in 1 tsp oil with 1 tsp cumin and 1 tsp turmeric. Add 350g lean halal beef mince (5% fat if you can), break it up, and cook until no longer pink. Spoon off any extra fat.",
+                "Simmer. Add 1 tin tomatoes and 400g frozen spinach. Simmer 10 minutes, and serve with warm pittas and a lemony salad."
+              ],
+              "portions": {
+                "raja": "Half the pan (350g lean halal beef mince is for both), 2 pittas, side salad",
+                "laurence": "A little under half the pan, 1 pitta, side salad"
+              },
+              "kcal": 600
             }
           }
         }
       ],
       "shopping": [
         {
-          "aisle": "Produce",
-          "estimatedCost": 19.4,
+          "aisle": "Dry goods and bread",
+          "estimatedCost": 8.35,
           "items": [
-            { "item": "Bananas", "qty": "6" },
-            { "item": "Blueberries", "qty": "1 punnet" },
-            { "item": "Apples", "qty": "4" },
-            { "item": "Spinach", "qty": "1 bag" },
-            { "item": "Broccoli", "qty": "2 heads" },
-            { "item": "Tomatoes", "qty": "6" },
-            { "item": "Mushrooms", "qty": "250g" },
-            { "item": "Carrots", "qty": "500g" },
-            { "item": "New potatoes", "qty": "1.5kg" },
-            { "item": "Baking potatoes", "qty": "2" },
-            { "item": "Peppers", "qty": "3" },
-            { "item": "Onions", "qty": "5" },
-            { "item": "Garlic", "qty": "1 bulb" },
-            { "item": "Lemons", "qty": "3" },
-            { "item": "Salad leaves", "qty": "1 bag" },
-            { "item": "Cucumber", "qty": "1" },
-            { "item": "Fresh ginger", "qty": "1 small piece" },
-            { "item": "Fresh parsley", "qty": "1 bunch" }
+            {
+              "item": "Porridge oats",
+              "qty": "1 kg"
+            },
+            {
+              "item": "Brown rice",
+              "qty": "1 kg"
+            },
+            {
+              "item": "Red lentils",
+              "qty": "1 kg"
+            },
+            {
+              "item": "Couscous",
+              "qty": "500 g"
+            },
+            {
+              "item": "Wholemeal bread",
+              "qty": "2 loaves"
+            },
+            {
+              "item": "Wholemeal pittas",
+              "qty": "1 pack of 6"
+            }
           ]
         },
         {
-          "aisle": "Dairy, eggs and chilled",
-          "estimatedCost": 10.5,
+          "aisle": "Tins",
+          "estimatedCost": 12.95,
           "items": [
-            { "item": "Greek yoghurt", "qty": "1kg" },
-            { "item": "Milk", "qty": "4 pints" },
-            { "item": "Eggs", "qty": "18" },
-            { "item": "Cheddar", "qty": "250g" },
-            { "item": "Butter", "qty": "250g" },
-            { "item": "Hummus", "qty": "1 tub" }
+            {
+              "item": "Chickpeas",
+              "qty": "4 x 400 g"
+            },
+            {
+              "item": "Chopped tomatoes",
+              "qty": "5 x 400 g"
+            },
+            {
+              "item": "Tuna in spring water",
+              "qty": "3 tins"
+            },
+            {
+              "item": "Sardines",
+              "qty": "3 tins"
+            },
+            {
+              "item": "Mackerel",
+              "qty": "4 tins"
+            },
+            {
+              "item": "Cannellini or mixed beans",
+              "qty": "2 x 400 g"
+            }
           ]
         },
         {
-          "aisle": "Meat and fish",
-          "estimatedCost": 26.8,
+          "aisle": "Fridge and halal meat",
+          "estimatedCost": 22.6,
           "items": [
-            { "item": "Chicken thighs", "qty": "2 packs, about 9 thighs" },
-            { "item": "Salmon fillets", "qty": "2" },
-            { "item": "Cod fillets", "qty": "2" },
-            { "item": "Turkey mince", "qty": "500g" }
-          ]
-        },
-        {
-          "aisle": "Bakery",
-          "estimatedCost": 4.2,
-          "items": [
-            { "item": "Wholemeal loaf", "qty": "2" },
-            { "item": "Pitta breads", "qty": "4" }
-          ]
-        },
-        {
-          "aisle": "Grains and tins",
-          "estimatedCost": 12.4,
-          "items": [
-            { "item": "Porridge oats", "qty": "1kg" },
-            { "item": "Basmati rice", "qty": "1kg" },
-            { "item": "Couscous", "qty": "500g" },
-            { "item": "Pasta", "qty": "500g" },
-            { "item": "Plain flour", "qty": "500g" },
-            { "item": "Red lentils", "qty": "500g" },
-            { "item": "Tinned tomatoes", "qty": "3 tins" },
-            { "item": "Chickpeas", "qty": "2 tins" },
-            { "item": "Baked beans", "qty": "1 tin" },
-            { "item": "Vegetable stock cubes", "qty": "1 box" }
-          ]
-        },
-        {
-          "aisle": "Cupboard",
-          "estimatedCost": 6.8,
-          "items": [
-            { "item": "Honey", "qty": "1 jar" },
-            { "item": "Walnuts", "qty": "200g" },
-            { "item": "Olive oil", "qty": "1 bottle" },
-            { "item": "Curry powder", "qty": "1 jar" },
-            { "item": "Soy sauce", "qty": "1 bottle" },
-            { "item": "Cinnamon", "qty": "1 jar" }
+            {
+              "item": "Vitamin D-fortified semi-skimmed milk",
+              "qty": "2 x 4 pints"
+            },
+            {
+              "item": "Low-fat natural yogurt",
+              "qty": "2 x 1 kg"
+            },
+            {
+              "item": "Medium eggs",
+              "qty": "15"
+            },
+            {
+              "item": "Halal chicken breast or skinless thigh",
+              "qty": "1 kg"
+            },
+            {
+              "item": "Lean halal lamb mince",
+              "qty": "400 g"
+            },
+            {
+              "item": "Lean halal beef mince (5% fat if you can)",
+              "qty": "400 g"
+            },
+            {
+              "item": "Reduced-fat hummus",
+              "qty": "200 g"
+            }
           ]
         },
         {
           "aisle": "Frozen",
-          "estimatedCost": 3.9,
+          "estimatedCost": 10.85,
           "items": [
-            { "item": "Mixed berries", "qty": "1 bag" },
-            { "item": "Peas", "qty": "1 bag" }
+            {
+              "item": "White fish fillets",
+              "qty": "About 500 g"
+            },
+            {
+              "item": "Spinach",
+              "qty": "2 x 1 kg bags"
+            },
+            {
+              "item": "Mixed berries",
+              "qty": "1 kg, or 2 x 500 g"
+            },
+            {
+              "item": "Mixed vegetables",
+              "qty": "1 kg"
+            }
+          ]
+        },
+        {
+          "aisle": "Fruit and vegetables",
+          "estimatedCost": 14.35,
+          "items": [
+            {
+              "item": "Bananas",
+              "qty": "8"
+            },
+            {
+              "item": "Eating apples",
+              "qty": "6"
+            },
+            {
+              "item": "Oranges",
+              "qty": "6"
+            },
+            {
+              "item": "Kiwis",
+              "qty": "6"
+            },
+            {
+              "item": "Lemons",
+              "qty": "8"
+            },
+            {
+              "item": "Onions",
+              "qty": "1 kg"
+            },
+            {
+              "item": "Carrots",
+              "qty": "1 kg"
+            },
+            {
+              "item": "Potatoes",
+              "qty": "2.5 kg"
+            },
+            {
+              "item": "Cucumbers",
+              "qty": "3"
+            },
+            {
+              "item": "Tomatoes",
+              "qty": "2 packs"
+            },
+            {
+              "item": "Peppers",
+              "qty": "2"
+            },
+            {
+              "item": "Garlic",
+              "qty": "1 bulb"
+            },
+            {
+              "item": "Ginger",
+              "qty": "1 piece"
+            }
+          ]
+        },
+        {
+          "aisle": "Other",
+          "estimatedCost": 1.65,
+          "items": [
+            {
+              "item": "Pumpkin seeds",
+              "qty": "200 g"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "2026-11-22",
+      "name": "22–28 November",
+      "days": [
+        {
+          "date": "2026-11-22",
+          "weekday": "Sunday",
+          "meals": {
+            "breakfast": {
+              "name": "Apple cinnamon porridge with pumpkin seeds",
+              "ingredients": [
+                {
+                  "item": "Cinnamon",
+                  "qty": "a pinch"
+                },
+                {
+                  "item": "Porridge oats",
+                  "qty": "105g"
+                },
+                {
+                  "item": "Vitamin D-fortified semi-skimmed milk",
+                  "qty": "450ml"
+                },
+                {
+                  "item": "Pumpkin seeds",
+                  "qty": "25g"
+                },
+                {
+                  "item": "Apples",
+                  "qty": "2 apples"
+                }
+              ],
+              "steps": [
+                "Simmer the oats. Cook oats in fortified milk for about 5 minutes.",
+                "Finish. Grate or slice the apple on top, add a pinch of cinnamon and the seeds."
+              ],
+              "portions": {
+                "raja": "60g oats, 250ml fortified milk, 1 apple, a pinch of cinnamon, 15g pumpkin seeds",
+                "laurence": "45g oats, 200ml milk, 1 small apple, cinnamon, 10g seeds"
+              },
+              "kcal": 420
+            },
+            "lunch": {
+              "name": "Mild chicken and lentil soup with bread",
+              "ingredients": [
+                {
+                  "item": "Halal chicken breast or skinless thigh",
+                  "qty": "300g"
+                },
+                {
+                  "item": "Red lentils",
+                  "qty": "300g"
+                },
+                {
+                  "item": "Tinned chopped tomatoes",
+                  "qty": "1 tin"
+                },
+                {
+                  "item": "Onion",
+                  "qty": "1"
+                },
+                {
+                  "item": "Garlic",
+                  "qty": "2 cloves"
+                },
+                {
+                  "item": "Oil",
+                  "qty": "1 tsp"
+                },
+                {
+                  "item": "Cumin",
+                  "qty": "1 tsp"
+                },
+                {
+                  "item": "Turmeric",
+                  "qty": "1 tsp"
+                },
+                {
+                  "item": "Frozen spinach",
+                  "qty": "300g"
+                },
+                {
+                  "item": "Carrot",
+                  "qty": "1"
+                },
+                {
+                  "item": "Water",
+                  "qty": "1 litre"
+                },
+                {
+                  "item": "Lemon",
+                  "qty": "1"
+                },
+                {
+                  "item": "Wholemeal bread",
+                  "qty": "3 slices"
+                }
+              ],
+              "steps": [
+                "Soften the base. Fry 1 chopped onion, garlic and 1 carrot in 1 tsp oil with 1 tsp cumin and 1 tsp turmeric. Add 300g diced halal chicken and cook until the outside is no longer pink.",
+                "Simmer. Add 300g rinsed red lentils, 1 tin tomatoes, about 1 litre water and 300g frozen spinach. Simmer 20 minutes until the lentils are soft and the chicken is cooked through. Finish with lemon and serve with bread.",
+                "Make four portions with 300g diced halal chicken and chill half for Monday lunch."
+              ],
+              "portions": {
+                "raja": "A large bowl of soup and 2 slices wholemeal bread, lemon",
+                "laurence": "A smaller bowl and 1 slice bread, lemon"
+              },
+              "kcal": 530
+            },
+            "dinner": {
+              "name": "Sardine tomato pasta with spinach",
+              "ingredients": [
+                {
+                  "item": "Tinned chopped tomatoes",
+                  "qty": "1 tin"
+                },
+                {
+                  "item": "Garlic",
+                  "qty": "2 cloves"
+                },
+                {
+                  "item": "Black pepper",
+                  "qty": "a pinch"
+                },
+                {
+                  "item": "Frozen spinach",
+                  "qty": "a handful"
+                },
+                {
+                  "item": "Lemon",
+                  "qty": "1"
+                },
+                {
+                  "item": "Tinned sardines",
+                  "qty": "about 2 tins"
+                },
+                {
+                  "item": "Wholemeal pasta",
+                  "qty": "130g dry"
+                }
+              ],
+              "steps": [
+                "Boil the pasta. Cook wholemeal pasta according to the pack.",
+                "Make the sauce. Warm 1 tin tomatoes with garlic, black pepper and a pinch of cumin. Wilt in the spinach, flake in the sardines, toss with the pasta and lemon."
+              ],
+              "portions": {
+                "raja": "75g dry wholemeal pasta, 1 tin sardines, tomato, 80g spinach, lemon",
+                "laurence": "55g dry pasta, most of 1 tin sardines, tomato, 60g spinach, lemon"
+              },
+              "kcal": 600
+            }
+          }
+        },
+        {
+          "date": "2026-11-23",
+          "weekday": "Monday",
+          "meals": {
+            "breakfast": {
+              "name": "Eggs on toast with tomato and orange",
+              "ingredients": [
+                {
+                  "item": "Oranges",
+                  "qty": "2 oranges"
+                },
+                {
+                  "item": "Eggs",
+                  "qty": "5 eggs"
+                },
+                {
+                  "item": "Wholemeal bread",
+                  "qty": "3 slices"
+                },
+                {
+                  "item": "Tomatoes",
+                  "qty": "2 tomatoes"
+                }
+              ],
+              "steps": [
+                "Cook. Poach or softly fry the eggs in very little oil, and grill or pan-cook the tomato. Toast the bread and eat the orange on the side."
+              ],
+              "portions": {
+                "raja": "3 eggs, 1 tomato, 2 slices wholemeal toast, 1 orange",
+                "laurence": "2 eggs, 1 tomato, 1 slice toast, 1 orange"
+              },
+              "kcal": 420
+            },
+            "lunch": {
+              "name": "Leftover chicken and lentil soup with bread",
+              "ingredients": [
+                {
+                  "item": "Wholemeal bread",
+                  "qty": "3 slices"
+                },
+                {
+                  "item": "Lemon",
+                  "qty": "1"
+                },
+                {
+                  "item": "Leftover chicken and lentil soup",
+                  "qty": "2 portions"
+                }
+              ],
+              "steps": [
+                "Reheat. Warm the soup until piping hot. Make sure the chicken is steaming hot all the way through, and serve with bread and lemon."
+              ],
+              "portions": {
+                "raja": "A large bowl of soup, 2 slices bread, lemon",
+                "laurence": "A smaller bowl, 1 slice bread, lemon"
+              },
+              "kcal": 520
+            },
+            "dinner": {
+              "name": "Mild lean beef and vegetable curry with rice",
+              "ingredients": [
+                {
+                  "item": "Lean halal beef mince",
+                  "qty": "500g"
+                },
+                {
+                  "item": "Tinned chopped tomatoes",
+                  "qty": "1 tin"
+                },
+                {
+                  "item": "Onion",
+                  "qty": "1"
+                },
+                {
+                  "item": "Garlic",
+                  "qty": "2 cloves"
+                },
+                {
+                  "item": "Ginger",
+                  "qty": "a little"
+                },
+                {
+                  "item": "Cumin",
+                  "qty": "1 tsp"
+                },
+                {
+                  "item": "Turmeric",
+                  "qty": "1 tsp"
+                },
+                {
+                  "item": "Frozen spinach",
+                  "qty": "a handful"
+                },
+                {
+                  "item": "Frozen mixed vegetables",
+                  "qty": "300g"
+                },
+                {
+                  "item": "Lemon",
+                  "qty": "1"
+                },
+                {
+                  "item": "Brown rice",
+                  "qty": "260g dry"
+                }
+              ],
+              "steps": [
+                "Start the rice. Boil the brown rice.",
+                "Simmer the curry. Fry 1 onion, garlic and ginger with 1 tsp cumin and 1 tsp turmeric. Add 500g lean halal beef mince, break it up, and cook until no longer pink. Spoon off any extra fat. Add 1 tin tomatoes, 300g frozen mixed vegetables and a handful of spinach. Simmer 15 minutes. Finish with lemon.",
+                "Make four portions with 500g lean halal beef mince (5% fat if you can) and chill half for Tuesday lunch. Spoon off any extra fat."
+              ],
+              "portions": {
+                "raja": "75g dry rice and a large plate of curry",
+                "laurence": "55g dry rice and a smaller plate"
+              },
+              "kcal": 600
+            }
+          }
+        },
+        {
+          "date": "2026-11-24",
+          "weekday": "Tuesday",
+          "meals": {
+            "breakfast": {
+              "name": "Overnight oats with pear and berries",
+              "ingredients": [
+                {
+                  "item": "Porridge oats",
+                  "qty": "105g"
+                },
+                {
+                  "item": "Vitamin D-fortified semi-skimmed milk",
+                  "qty": "350ml"
+                },
+                {
+                  "item": "Frozen berries",
+                  "qty": "140g"
+                },
+                {
+                  "item": "Pears",
+                  "qty": "2 pears"
+                }
+              ],
+              "steps": [
+                "The night before. Mix oats and milk and chill.",
+                "In the morning. Top with sliced pear and berries."
+              ],
+              "portions": {
+                "raja": "60g oats, 200ml fortified milk, 1 pear, 80g berries",
+                "laurence": "45g oats, 150ml milk, 1 small pear, 60g berries"
+              },
+              "kcal": 430
+            },
+            "lunch": {
+              "name": "Leftover lean beef and vegetable curry with rice",
+              "ingredients": [
+                {
+                  "item": "Cooked brown rice",
+                  "qty": "350g, from yesterday"
+                },
+                {
+                  "item": "Lemon",
+                  "qty": "1"
+                },
+                {
+                  "item": "Leftover lean beef and vegetable curry",
+                  "qty": "2 portions"
+                },
+                {
+                  "item": "Salad vegetables",
+                  "qty": "a side"
+                }
+              ],
+              "steps": [
+                "Reheat. Warm the curry and rice until piping hot. Serve with a lemony salad."
+              ],
+              "portions": {
+                "raja": "A large plate of curry, about 200g cooked rice, salad and lemon",
+                "laurence": "A smaller plate, about 150g cooked rice, salad and lemon"
+              },
+              "kcal": 520
+            },
+            "dinner": {
+              "name": "Mackerel with potatoes, peas and lemon yogurt",
+              "ingredients": [
+                {
+                  "item": "Lemon",
+                  "qty": "1"
+                },
+                {
+                  "item": "Low-fat natural yogurt",
+                  "qty": "to serve"
+                },
+                {
+                  "item": "Frozen peas",
+                  "qty": "220g"
+                },
+                {
+                  "item": "Potatoes",
+                  "qty": "520g"
+                },
+                {
+                  "item": "Tinned mackerel",
+                  "qty": "about 2 tins"
+                }
+              ],
+              "steps": [
+                "Boil the potatoes and peas. Cut the potatoes and boil until tender, adding peas for the last 3 minutes.",
+                "Plate. Flake over the mackerel and spoon on yogurt mixed with lemon."
+              ],
+              "portions": {
+                "raja": "300g potatoes, 1 tin mackerel, 120g peas, lemon yogurt",
+                "laurence": "220g potatoes, most of 1 tin mackerel, 100g peas, lemon yogurt"
+              },
+              "kcal": 600
+            }
+          }
+        },
+        {
+          "date": "2026-11-25",
+          "weekday": "Wednesday",
+          "meals": {
+            "breakfast": {
+              "name": "Scrambled eggs with spinach, toast and kiwi",
+              "ingredients": [
+                {
+                  "item": "Frozen spinach",
+                  "qty": "a handful"
+                },
+                {
+                  "item": "Kiwis",
+                  "qty": "2 kiwis"
+                },
+                {
+                  "item": "Eggs",
+                  "qty": "5 eggs"
+                },
+                {
+                  "item": "Wholemeal bread",
+                  "qty": "3 slices"
+                }
+              ],
+              "steps": [
+                "Cook. Wilt the spinach, soft-scramble the eggs with a splash of milk, toast the bread, and serve the kiwi on the side."
+              ],
+              "portions": {
+                "raja": "3 eggs, 80g spinach, 2 slices toast, 1 kiwi",
+                "laurence": "2 eggs, 60g spinach, 1 slice toast, 1 kiwi"
+              },
+              "kcal": 420
+            },
+            "lunch": {
+              "name": "Tuna pasta salad with peppers and lemon",
+              "ingredients": [
+                {
+                  "item": "Oil",
+                  "qty": "1 tsp"
+                },
+                {
+                  "item": "Black pepper",
+                  "qty": "a pinch"
+                },
+                {
+                  "item": "Pepper",
+                  "qty": "1"
+                },
+                {
+                  "item": "Lemon",
+                  "qty": "1"
+                },
+                {
+                  "item": "Tuna in spring water",
+                  "qty": "about 1.5 tins"
+                },
+                {
+                  "item": "Wholemeal pasta",
+                  "qty": "130g dry"
+                },
+                {
+                  "item": "Cucumber",
+                  "qty": "1"
+                }
+              ],
+              "steps": [
+                "Cook the pasta. Boil the pasta, then drain and cool under cold water if you want it as a salad.",
+                "Toss. Mix with drained tuna, chopped pepper and cucumber, lemon, 1 tsp oil and black pepper."
+              ],
+              "portions": {
+                "raja": "75g dry wholemeal pasta, 1 tin tuna, peppers, cucumber, 1 tsp oil, lemon",
+                "laurence": "55g dry pasta, about 80g tuna, the same vegetables, oil and lemon"
+              },
+              "kcal": 530
+            },
+            "dinner": {
+              "name": "Mild chicken saag with pittas",
+              "ingredients": [
+                {
+                  "item": "Halal chicken breast or skinless thigh",
+                  "qty": "400g"
+                },
+                {
+                  "item": "Tinned chopped tomatoes",
+                  "qty": "1 tin"
+                },
+                {
+                  "item": "Garlic",
+                  "qty": "2 cloves"
+                },
+                {
+                  "item": "Ginger",
+                  "qty": "a little"
+                },
+                {
+                  "item": "Oil",
+                  "qty": "1 tsp"
+                },
+                {
+                  "item": "Cumin",
+                  "qty": "1 tsp"
+                },
+                {
+                  "item": "Turmeric",
+                  "qty": "1 tsp"
+                },
+                {
+                  "item": "Frozen spinach",
+                  "qty": "400g"
+                },
+                {
+                  "item": "Lemon",
+                  "qty": "1"
+                },
+                {
+                  "item": "Wholemeal pittas",
+                  "qty": "3 pittas"
+                }
+              ],
+              "steps": [
+                "Cook the chicken. Fry onion, garlic and ginger with 1 tsp cumin and 1 tsp turmeric in 1 tsp oil. Add 400g diced halal chicken and cook until the outside is no longer pink.",
+                "Make the saag. Add 1 tin tomatoes and 400g frozen spinach, simmer 10 minutes until the chicken is cooked through, and serve with pittas, salad and lemon."
+              ],
+              "portions": {
+                "raja": "A large plate of saag (400g diced halal chicken is for both), 2 pittas, salad",
+                "laurence": "A smaller plate, 1 pitta, salad"
+              },
+              "kcal": 600
+            }
+          }
+        },
+        {
+          "date": "2026-11-26",
+          "weekday": "Thursday",
+          "meals": {
+            "breakfast": {
+              "name": "Banana porridge and an orange",
+              "ingredients": [
+                {
+                  "item": "Porridge oats",
+                  "qty": "105g"
+                },
+                {
+                  "item": "Vitamin D-fortified semi-skimmed milk",
+                  "qty": "450ml"
+                },
+                {
+                  "item": "Bananas",
+                  "qty": "2 bananas"
+                },
+                {
+                  "item": "Oranges",
+                  "qty": "2 oranges"
+                }
+              ],
+              "steps": [
+                "Cook. Simmer oats and milk for about 5 minutes. Top with banana and eat the orange on the side."
+              ],
+              "portions": {
+                "raja": "60g oats, 250ml fortified milk, 1 banana, 1 orange",
+                "laurence": "45g oats, 200ml milk, 1 small banana, 1 orange"
+              },
+              "kcal": 420
+            },
+            "lunch": {
+              "name": "Chickpea, spinach and tomato pittas",
+              "ingredients": [
+                {
+                  "item": "Black pepper",
+                  "qty": "a pinch"
+                },
+                {
+                  "item": "Frozen spinach",
+                  "qty": "a handful"
+                },
+                {
+                  "item": "Lemon",
+                  "qty": "1"
+                },
+                {
+                  "item": "Tinned chickpeas",
+                  "qty": "about 2 tins"
+                },
+                {
+                  "item": "Wholemeal pittas",
+                  "qty": "3 pittas"
+                },
+                {
+                  "item": "Tomatoes",
+                  "qty": "2 tomatoes"
+                },
+                {
+                  "item": "Cumin",
+                  "qty": "1 tsp"
+                }
+              ],
+              "steps": [
+                "Warm the filling. Warm drained chickpeas with a little spinach, chopped tomato, cumin, black pepper and lemon.",
+                "Fill the pittas. Toast the pittas and fill."
+              ],
+              "portions": {
+                "raja": "1 tin chickpeas, 2 pittas, spinach, tomato, lemon, cumin",
+                "laurence": "About three-quarters of a tin of chickpeas, 1 pitta, spinach, tomato, lemon"
+              },
+              "kcal": 530
+            },
+            "dinner": {
+              "name": "White fish with couscous and mixed vegetables",
+              "ingredients": [
+                {
+                  "item": "Lemon",
+                  "qty": "1"
+                },
+                {
+                  "item": "White fish fillets",
+                  "qty": "270g"
+                },
+                {
+                  "item": "Frozen mixed vegetables",
+                  "qty": "270g"
+                },
+                {
+                  "item": "Couscous",
+                  "qty": "105g dry"
+                },
+                {
+                  "item": "Oil",
+                  "qty": "1 tsp"
+                }
+              ],
+              "steps": [
+                "Bake the fish. Bake frozen fillets at 200°C with lemon and a pinch of cumin until cooked through, following the pack, about 20 minutes.",
+                "Couscous and veg. Cover couscous with boiling water for 5 minutes. Heat the frozen vegetables and plate with lemon."
+              ],
+              "portions": {
+                "raja": "150g white fish, 60g dry couscous, 150g mixed vegetables, lemon, 1 tsp oil",
+                "laurence": "120g fish, 45g couscous, 120g vegetables, lemon"
+              },
+              "kcal": 600
+            }
+          }
+        },
+        {
+          "date": "2026-11-27",
+          "weekday": "Friday",
+          "meals": {
+            "breakfast": {
+              "name": "Yogurt bowl with berries, seeds and oats",
+              "ingredients": [
+                {
+                  "item": "Porridge oats",
+                  "qty": "35g"
+                },
+                {
+                  "item": "Pumpkin seeds",
+                  "qty": "25g"
+                },
+                {
+                  "item": "Frozen berries",
+                  "qty": "140g"
+                },
+                {
+                  "item": "Low-fat natural yogurt",
+                  "qty": "350g"
+                }
+              ],
+              "steps": [
+                "Assemble. Spoon the yogurt into bowls and top with berries, seeds and oats."
+              ],
+              "portions": {
+                "raja": "200g yogurt, 80g berries, 15g pumpkin seeds, 20g oats",
+                "laurence": "150g yogurt, 60g berries, 10g seeds, 15g oats"
+              },
+              "kcal": 420
+            },
+            "lunch": {
+              "name": "Tinned salmon sandwiches with cucumber and tomato",
+              "ingredients": [
+                {
+                  "item": "Lemon",
+                  "qty": "1"
+                },
+                {
+                  "item": "Low-fat natural yogurt",
+                  "qty": "to serve"
+                },
+                {
+                  "item": "Tinned salmon",
+                  "qty": "about 2 tins"
+                },
+                {
+                  "item": "Wholemeal bread",
+                  "qty": "4 slices"
+                },
+                {
+                  "item": "Cucumber",
+                  "qty": "1"
+                },
+                {
+                  "item": "Tomatoes",
+                  "qty": "2 tomatoes"
+                }
+              ],
+              "steps": [
+                "Assemble. Mix the salmon with yogurt and lemon, and sandwich with cucumber and tomato."
+              ],
+              "portions": {
+                "raja": "1 tin salmon, 2 slices wholemeal bread, cucumber, tomato, lemon, a spoon of yogurt",
+                "laurence": "Most of 1 tin salmon, 2 slices bread, cucumber, tomato, lemon, yogurt"
+              },
+              "kcal": 530
+            },
+            "dinner": {
+              "name": "Mild mixed vegetable dahl with rice",
+              "ingredients": [
+                {
+                  "item": "Red lentils",
+                  "qty": "300g"
+                },
+                {
+                  "item": "Tinned chopped tomatoes",
+                  "qty": "1 tin"
+                },
+                {
+                  "item": "Garlic",
+                  "qty": "2 cloves"
+                },
+                {
+                  "item": "Ginger",
+                  "qty": "a little"
+                },
+                {
+                  "item": "Cumin",
+                  "qty": "1 tsp"
+                },
+                {
+                  "item": "Turmeric",
+                  "qty": "1 tsp"
+                },
+                {
+                  "item": "Frozen mixed vegetables",
+                  "qty": "300g"
+                },
+                {
+                  "item": "Lemon",
+                  "qty": "1"
+                },
+                {
+                  "item": "Brown rice",
+                  "qty": "260g dry"
+                }
+              ],
+              "steps": [
+                "Cook rice and lentils. Boil the rice. Simmer 300g red lentils with turmeric and water for 15 minutes.",
+                "Finish the dahl. Fry onion, garlic, ginger, 1 tsp cumin and 1 tsp turmeric. Add 1 tin tomatoes, 300g frozen mixed vegetables and the lentils. Simmer 10 minutes. Finish with lemon.",
+                "Make four portions and chill half for Saturday lunch."
+              ],
+              "portions": {
+                "raja": "75g dry rice and a large bowl of dahl",
+                "laurence": "55g dry rice and a smaller bowl"
+              },
+              "kcal": 600
+            }
+          }
+        },
+        {
+          "date": "2026-11-28",
+          "weekday": "Saturday",
+          "meals": {
+            "breakfast": {
+              "name": "Pepper and spinach omelette",
+              "ingredients": [
+                {
+                  "item": "Pepper",
+                  "qty": "1"
+                },
+                {
+                  "item": "Oranges",
+                  "qty": "2 oranges"
+                },
+                {
+                  "item": "Eggs",
+                  "qty": "5 eggs"
+                },
+                {
+                  "item": "Frozen spinach",
+                  "qty": "140g"
+                },
+                {
+                  "item": "Wholemeal bread",
+                  "qty": "3 slices"
+                }
+              ],
+              "steps": [
+                "Cook. Wilt spinach and soften chopped pepper in a pan, pour in beaten eggs, and cook gently. Toast the bread and eat the orange on the side."
+              ],
+              "portions": {
+                "raja": "3 eggs, peppers, 80g spinach, 2 slices toast, 1 orange",
+                "laurence": "2 eggs, peppers, 60g spinach, 1 slice toast, 1 orange"
+              },
+              "kcal": 420
+            },
+            "lunch": {
+              "name": "Leftover vegetable dahl with rice and salad",
+              "ingredients": [
+                {
+                  "item": "Cooked brown rice",
+                  "qty": "350g, from yesterday"
+                },
+                {
+                  "item": "Lemon",
+                  "qty": "1"
+                },
+                {
+                  "item": "Leftover vegetable dahl",
+                  "qty": "2 portions"
+                },
+                {
+                  "item": "Salad vegetables",
+                  "qty": "a side"
+                }
+              ],
+              "steps": [
+                "Reheat. Warm the dahl and rice until piping hot. Serve with a lemony salad."
+              ],
+              "portions": {
+                "raja": "A large bowl of dahl, about 200g cooked rice, salad and lemon",
+                "laurence": "A smaller bowl, about 150g cooked rice, salad and lemon"
+              },
+              "kcal": 530
+            },
+            "dinner": {
+              "name": "Mild lean lamb keema with pittas and salad",
+              "ingredients": [
+                {
+                  "item": "Lean halal lamb mince",
+                  "qty": "350g"
+                },
+                {
+                  "item": "Onion",
+                  "qty": "1"
+                },
+                {
+                  "item": "Oil",
+                  "qty": "1 tsp"
+                },
+                {
+                  "item": "Cumin",
+                  "qty": "1 tsp"
+                },
+                {
+                  "item": "Turmeric",
+                  "qty": "1 tsp"
+                },
+                {
+                  "item": "Black pepper",
+                  "qty": "a pinch"
+                },
+                {
+                  "item": "Frozen spinach",
+                  "qty": "a handful"
+                },
+                {
+                  "item": "Tomatoes",
+                  "qty": "2"
+                },
+                {
+                  "item": "Lemon",
+                  "qty": "1"
+                },
+                {
+                  "item": "Wholemeal pittas",
+                  "qty": "3 pittas"
+                }
+              ],
+              "steps": [
+                "Cook the base. Gently fry 1 chopped onion and 2 chopped tomatoes in 1 tsp oil with 1 tsp turmeric, 1 tsp cumin and black pepper. No chilli.",
+                "Add the lamb. Add 350g lean halal lamb mince, break it up, and cook until no longer pink. Spoon off any extra fat, wilt in a handful of spinach, and serve with warm pittas, salad and lemon."
+              ],
+              "portions": {
+                "raja": "A large plate of keema (350g lean halal lamb mince is for both), 2 pittas, salad",
+                "laurence": "A smaller plate, 1 pitta, salad"
+              },
+              "kcal": 600
+            }
+          }
+        }
+      ],
+      "shopping": [
+        {
+          "aisle": "Dry goods and bread",
+          "estimatedCost": 5.1,
+          "items": [
+            {
+              "item": "Wholemeal bread",
+              "qty": "2 loaves"
+            },
+            {
+              "item": "Wholemeal pittas",
+              "qty": "1 pack of 6"
+            },
+            {
+              "item": "Wholemeal pasta",
+              "qty": "500 g"
+            },
+            {
+              "item": "Brown rice, only if the first bag is low",
+              "qty": "1 kg if needed"
+            }
+          ]
+        },
+        {
+          "aisle": "Tins",
+          "estimatedCost": 10.25,
+          "items": [
+            {
+              "item": "Chickpeas",
+              "qty": "3 x 400 g"
+            },
+            {
+              "item": "Chopped tomatoes",
+              "qty": "4 x 400 g"
+            },
+            {
+              "item": "Tuna in spring water",
+              "qty": "2 tins"
+            },
+            {
+              "item": "Sardines",
+              "qty": "2 tins"
+            },
+            {
+              "item": "Mackerel",
+              "qty": "2 tins"
+            },
+            {
+              "item": "Tinned salmon",
+              "qty": "2 tins"
+            }
+          ]
+        },
+        {
+          "aisle": "Fridge and halal meat",
+          "estimatedCost": 22.9,
+          "items": [
+            {
+              "item": "Vitamin D-fortified semi-skimmed milk",
+              "qty": "2 x 4 pints"
+            },
+            {
+              "item": "Low-fat natural yogurt",
+              "qty": "2 x 1 kg"
+            },
+            {
+              "item": "Medium eggs",
+              "qty": "15"
+            },
+            {
+              "item": "Halal chicken breast or skinless thigh",
+              "qty": "800 g to 1 kg"
+            },
+            {
+              "item": "Lean halal lamb mince",
+              "qty": "400 g"
+            },
+            {
+              "item": "Lean halal beef mince (5% fat if you can)",
+              "qty": "500 g"
+            },
+            {
+              "item": "Reduced-fat hummus",
+              "qty": "200 g"
+            }
+          ]
+        },
+        {
+          "aisle": "Frozen",
+          "estimatedCost": 8.8,
+          "items": [
+            {
+              "item": "White fish fillets",
+              "qty": "About 500 g"
+            },
+            {
+              "item": "Spinach",
+              "qty": "1 kg"
+            },
+            {
+              "item": "Mixed berries",
+              "qty": "500 g"
+            },
+            {
+              "item": "Mixed vegetables",
+              "qty": "1 kg"
+            },
+            {
+              "item": "Peas",
+              "qty": "500 g, if needed"
+            }
+          ]
+        },
+        {
+          "aisle": "Fruit and vegetables",
+          "estimatedCost": 14.95,
+          "items": [
+            {
+              "item": "Bananas",
+              "qty": "8"
+            },
+            {
+              "item": "Eating apples",
+              "qty": "6"
+            },
+            {
+              "item": "Pears",
+              "qty": "4"
+            },
+            {
+              "item": "Oranges",
+              "qty": "6"
+            },
+            {
+              "item": "Kiwis",
+              "qty": "4"
+            },
+            {
+              "item": "Lemons",
+              "qty": "8"
+            },
+            {
+              "item": "Onions",
+              "qty": "1 kg"
+            },
+            {
+              "item": "Carrots",
+              "qty": "1 kg"
+            },
+            {
+              "item": "Potatoes",
+              "qty": "2.5 kg"
+            },
+            {
+              "item": "Cucumbers",
+              "qty": "3"
+            },
+            {
+              "item": "Tomatoes",
+              "qty": "2 packs"
+            },
+            {
+              "item": "Peppers",
+              "qty": "3"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "2026-11-29",
+      "name": "29 November–5 December",
+      "days": [
+        {
+          "date": "2026-11-29",
+          "weekday": "Sunday",
+          "meals": {
+            "breakfast": {
+              "name": "Berry porridge with pumpkin seeds",
+              "ingredients": [
+                {
+                  "item": "Porridge oats",
+                  "qty": "105g"
+                },
+                {
+                  "item": "Vitamin D-fortified semi-skimmed milk",
+                  "qty": "450ml"
+                },
+                {
+                  "item": "Pumpkin seeds",
+                  "qty": "25g"
+                },
+                {
+                  "item": "Frozen berries",
+                  "qty": "140g"
+                }
+              ],
+              "steps": [
+                "Cook. Simmer oats and milk for about 5 minutes. Top with berries and seeds."
+              ],
+              "portions": {
+                "raja": "60g oats, 250ml fortified milk, 80g berries, 15g pumpkin seeds",
+                "laurence": "45g oats, 200ml milk, 60g berries, 10g seeds"
+              },
+              "kcal": 420
+            },
+            "lunch": {
+              "name": "Mild tomato and lentil soup with bread",
+              "ingredients": [
+                {
+                  "item": "Red lentils",
+                  "qty": "300g"
+                },
+                {
+                  "item": "Tinned chopped tomatoes",
+                  "qty": "2 tins"
+                },
+                {
+                  "item": "Onion",
+                  "qty": "1"
+                },
+                {
+                  "item": "Garlic",
+                  "qty": "2 cloves"
+                },
+                {
+                  "item": "Oil",
+                  "qty": "1 tsp"
+                },
+                {
+                  "item": "Cumin",
+                  "qty": "1 tsp"
+                },
+                {
+                  "item": "Turmeric",
+                  "qty": "1 tsp"
+                },
+                {
+                  "item": "Frozen spinach",
+                  "qty": "a handful"
+                },
+                {
+                  "item": "Water",
+                  "qty": "800ml"
+                },
+                {
+                  "item": "Lemon",
+                  "qty": "1"
+                },
+                {
+                  "item": "Wholemeal bread",
+                  "qty": "3 slices"
+                }
+              ],
+              "steps": [
+                "Build the soup. Fry 1 onion, garlic and carrot in 1 tsp oil with 1 tsp cumin and 1 tsp turmeric. Add 300g red lentils, 2 tins tomatoes, about 800ml water and a handful of spinach. Simmer 20 minutes. Finish with lemon and bread.",
+                "Make four portions and chill half for Monday lunch."
+              ],
+              "portions": {
+                "raja": "A large bowl of soup, 2 slices wholemeal bread, lemon",
+                "laurence": "A smaller bowl, 1 slice bread, lemon"
+              },
+              "kcal": 530
+            },
+            "dinner": {
+              "name": "Mackerel jacket potatoes with spinach and lemon",
+              "ingredients": [
+                {
+                  "item": "Frozen spinach",
+                  "qty": "a handful"
+                },
+                {
+                  "item": "Lemon",
+                  "qty": "1"
+                },
+                {
+                  "item": "Low-fat natural yogurt",
+                  "qty": "to serve"
+                },
+                {
+                  "item": "Potatoes",
+                  "qty": "520g"
+                },
+                {
+                  "item": "Tinned mackerel",
+                  "qty": "about 2 tins"
+                }
+              ],
+              "steps": [
+                "Cook the potatoes. Bake or microwave-then-crisp the potatoes.",
+                "Wilt and plate. Wilt the spinach, split the potatoes, add mackerel, spinach, lemon and a spoon of yogurt."
+              ],
+              "portions": {
+                "raja": "1 large potato (about 300g), 1 tin mackerel, 80g spinach, lemon yogurt",
+                "laurence": "About 220g potato, most of 1 tin mackerel, 60g spinach, lemon yogurt"
+              },
+              "kcal": 600
+            }
+          }
+        },
+        {
+          "date": "2026-11-30",
+          "weekday": "Monday",
+          "meals": {
+            "breakfast": {
+              "name": "Eggs with tomato, toast and orange",
+              "ingredients": [
+                {
+                  "item": "Oranges",
+                  "qty": "2 oranges"
+                },
+                {
+                  "item": "Eggs",
+                  "qty": "5 eggs"
+                },
+                {
+                  "item": "Wholemeal bread",
+                  "qty": "3 slices"
+                },
+                {
+                  "item": "Tomatoes",
+                  "qty": "2 tomatoes"
+                }
+              ],
+              "steps": [
+                "Cook the eggs as you like, grill the tomato, toast the bread, and eat the orange on the side."
+              ],
+              "portions": {
+                "raja": "3 eggs, 1 tomato, 2 slices toast, 1 orange",
+                "laurence": "2 eggs, 1 tomato, 1 slice toast, 1 orange"
+              },
+              "kcal": 420
+            },
+            "lunch": {
+              "name": "Leftover tomato and lentil soup with bread",
+              "ingredients": [
+                {
+                  "item": "Wholemeal bread",
+                  "qty": "3 slices"
+                },
+                {
+                  "item": "Lemon",
+                  "qty": "1"
+                },
+                {
+                  "item": "Leftover tomato and lentil soup",
+                  "qty": "2 portions"
+                }
+              ],
+              "steps": [
+                "Reheat. Warm the soup until piping hot and serve with bread and lemon."
+              ],
+              "portions": {
+                "raja": "A large bowl of soup, 2 slices bread, lemon",
+                "laurence": "A smaller bowl, 1 slice bread, lemon"
+              },
+              "kcal": 520
+            },
+            "dinner": {
+              "name": "Mild chicken aloo palak with pittas",
+              "ingredients": [
+                {
+                  "item": "Halal chicken breast or skinless thigh",
+                  "qty": "500g"
+                },
+                {
+                  "item": "Tinned chopped tomatoes",
+                  "qty": "1 tin"
+                },
+                {
+                  "item": "Onion",
+                  "qty": "1"
+                },
+                {
+                  "item": "Garlic",
+                  "qty": "2 cloves"
+                },
+                {
+                  "item": "Ginger",
+                  "qty": "a little"
+                },
+                {
+                  "item": "Cumin",
+                  "qty": "1 tsp"
+                },
+                {
+                  "item": "Turmeric",
+                  "qty": "1 tsp"
+                },
+                {
+                  "item": "Frozen spinach",
+                  "qty": "400g"
+                },
+                {
+                  "item": "Potatoes",
+                  "qty": "600g"
+                },
+                {
+                  "item": "Water",
+                  "qty": "a splash"
+                },
+                {
+                  "item": "Lemon",
+                  "qty": "1"
+                },
+                {
+                  "item": "Wholemeal pittas",
+                  "qty": "3 pittas"
+                }
+              ],
+              "steps": [
+                "Simmer the potatoes and chicken. Fry 1 onion, garlic and ginger with 1 tsp cumin and 1 tsp turmeric. Add 500g diced halal chicken and cook until the outside is no longer pink. Add 600g cubed potatoes, 1 tin tomatoes and a splash of water. Cover and cook until the potatoes are tender and the chicken is cooked through, about 20 minutes.",
+                "Add spinach. Stir in 400g frozen spinach, cook 5 more minutes, finish with lemon, and serve with pittas.",
+                "Make four portions with 500g diced halal chicken and chill half for Tuesday lunch."
+              ],
+              "portions": {
+                "raja": "A large plate (chicken, potatoes and spinach) and 2 pittas",
+                "laurence": "A smaller plate and 1 pitta"
+              },
+              "kcal": 600
+            }
+          }
+        },
+        {
+          "date": "2026-12-01",
+          "weekday": "Tuesday",
+          "meals": {
+            "breakfast": {
+              "name": "Overnight oats with banana and kiwi",
+              "ingredients": [
+                {
+                  "item": "Porridge oats",
+                  "qty": "105g"
+                },
+                {
+                  "item": "Vitamin D-fortified semi-skimmed milk",
+                  "qty": "350ml"
+                },
+                {
+                  "item": "Bananas",
+                  "qty": "2 bananas"
+                },
+                {
+                  "item": "Kiwis",
+                  "qty": "2 kiwis"
+                }
+              ],
+              "steps": [
+                "The night before. Mix oats and milk and chill.",
+                "In the morning. Top with sliced banana and kiwi."
+              ],
+              "portions": {
+                "raja": "60g oats, 200ml fortified milk, 1 banana, 1 kiwi",
+                "laurence": "45g oats, 150ml milk, 1 small banana, 1 kiwi"
+              },
+              "kcal": 430
+            },
+            "lunch": {
+              "name": "Leftover chicken aloo palak with pittas and salad",
+              "ingredients": [
+                {
+                  "item": "Wholemeal pittas",
+                  "qty": "3 pittas"
+                },
+                {
+                  "item": "Lemon",
+                  "qty": "1"
+                },
+                {
+                  "item": "Leftover chicken aloo palak",
+                  "qty": "2 portions"
+                },
+                {
+                  "item": "Salad vegetables",
+                  "qty": "a side"
+                }
+              ],
+              "steps": [
+                "Reheat. Warm until piping hot. Make sure the chicken is steaming hot all the way through, and serve with pittas, salad and lemon."
+              ],
+              "portions": {
+                "raja": "A large plate of chicken aloo palak, 2 pittas, salad and lemon",
+                "laurence": "A smaller plate, 1 pitta, salad and lemon"
+              },
+              "kcal": 520
+            },
+            "dinner": {
+              "name": "Cumin-lemon fish with rice and peas",
+              "ingredients": [
+                {
+                  "item": "Black pepper",
+                  "qty": "a pinch"
+                },
+                {
+                  "item": "Lemon",
+                  "qty": "1"
+                },
+                {
+                  "item": "White fish fillets",
+                  "qty": "270g"
+                },
+                {
+                  "item": "Frozen peas",
+                  "qty": "220g"
+                },
+                {
+                  "item": "Brown rice",
+                  "qty": "130g dry"
+                },
+                {
+                  "item": "Cumin",
+                  "qty": "1 tsp"
+                }
+              ],
+              "steps": [
+                "Cook the rice and peas. Boil the rice, adding peas near the end.",
+                "Bake the fish. Bake frozen fillets at 200°C with lemon, cumin and black pepper until cooked through, following the pack."
+              ],
+              "portions": {
+                "raja": "150g white fish, 75g dry rice, 120g peas, lemon, pinch of cumin",
+                "laurence": "120g fish, 55g dry rice, 100g peas, lemon and cumin"
+              },
+              "kcal": 600
+            }
+          }
+        },
+        {
+          "date": "2026-12-02",
+          "weekday": "Wednesday",
+          "meals": {
+            "breakfast": {
+              "name": "Yogurt bowl with apple, seeds and oats",
+              "ingredients": [
+                {
+                  "item": "Porridge oats",
+                  "qty": "35g"
+                },
+                {
+                  "item": "Pumpkin seeds",
+                  "qty": "25g"
+                },
+                {
+                  "item": "Apples",
+                  "qty": "2 apples"
+                },
+                {
+                  "item": "Low-fat natural yogurt",
+                  "qty": "350g"
+                }
+              ],
+              "steps": [
+                "Assemble. Spoon the yogurt into bowls and top with chopped apple, seeds and oats."
+              ],
+              "portions": {
+                "raja": "200g yogurt, 1 apple, 15g pumpkin seeds, 20g oats",
+                "laurence": "150g yogurt, 1 small apple, 10g seeds, 15g oats"
+              },
+              "kcal": 420
+            },
+            "lunch": {
+              "name": "Tuna, white bean and pepper salad",
+              "ingredients": [
+                {
+                  "item": "Oil",
+                  "qty": "1 tsp"
+                },
+                {
+                  "item": "Black pepper",
+                  "qty": "a pinch"
+                },
+                {
+                  "item": "Pepper",
+                  "qty": "1"
+                },
+                {
+                  "item": "Lemon",
+                  "qty": "1"
+                },
+                {
+                  "item": "Tuna in spring water",
+                  "qty": "about 1.5 tins"
+                },
+                {
+                  "item": "Tinned beans",
+                  "qty": "about 1 tin"
+                },
+                {
+                  "item": "Cucumber",
+                  "qty": "1"
+                }
+              ],
+              "steps": [
+                "Toss. Drain the tuna and beans and mix with chopped pepper and cucumber, lemon, 1 tsp oil and black pepper."
+              ],
+              "portions": {
+                "raja": "1 tin tuna, half a tin of beans, peppers, cucumber, 1 tsp oil, lemon",
+                "laurence": "About 80g tuna, a third of a tin of beans, the same vegetables, oil and lemon"
+              },
+              "kcal": 530
+            },
+            "dinner": {
+              "name": "Mild lean lamb and spinach curry with rice",
+              "ingredients": [
+                {
+                  "item": "Lean halal lamb mince",
+                  "qty": "350g"
+                },
+                {
+                  "item": "Tinned chopped tomatoes",
+                  "qty": "1 tin"
+                },
+                {
+                  "item": "Garlic",
+                  "qty": "2 cloves"
+                },
+                {
+                  "item": "Ginger",
+                  "qty": "a little"
+                },
+                {
+                  "item": "Cumin",
+                  "qty": "1 tsp"
+                },
+                {
+                  "item": "Turmeric",
+                  "qty": "1 tsp"
+                },
+                {
+                  "item": "Frozen spinach",
+                  "qty": "400g"
+                },
+                {
+                  "item": "Lemon",
+                  "qty": "1"
+                },
+                {
+                  "item": "Brown rice",
+                  "qty": "130g dry"
+                }
+              ],
+              "steps": [
+                "Boil the rice.",
+                "Make the curry. Fry onion, garlic and ginger with 1 tsp cumin and 1 tsp turmeric. Add 350g lean halal lamb mince, break it up, and cook until no longer pink. Spoon off any extra fat. Add 1 tin tomatoes and 400g frozen spinach, simmer 10 minutes, and finish with lemon."
+              ],
+              "portions": {
+                "raja": "A large plate of curry (350g lean halal lamb mince is for both) and 75g dry rice",
+                "laurence": "A smaller plate and 55g dry rice"
+              },
+              "kcal": 600
+            }
+          }
+        },
+        {
+          "date": "2026-12-03",
+          "weekday": "Thursday",
+          "meals": {
+            "breakfast": {
+              "name": "Scrambled eggs with mushrooms and toast",
+              "ingredients": [
+                {
+                  "item": "Oranges",
+                  "qty": "2 oranges"
+                },
+                {
+                  "item": "Eggs",
+                  "qty": "5 eggs"
+                },
+                {
+                  "item": "Mushrooms",
+                  "qty": "140g"
+                },
+                {
+                  "item": "Wholemeal bread",
+                  "qty": "3 slices"
+                }
+              ],
+              "steps": [
+                "Cook. Soften the mushrooms, soft-scramble the eggs, toast the bread, and eat the orange on the side."
+              ],
+              "portions": {
+                "raja": "3 eggs, 80g mushrooms, 2 slices toast, 1 orange",
+                "laurence": "2 eggs, 60g mushrooms, 1 slice toast, 1 orange"
+              },
+              "kcal": 420
+            },
+            "lunch": {
+              "name": "Sardines on toast with tomato salad",
+              "ingredients": [
+                {
+                  "item": "Lemon",
+                  "qty": "1"
+                },
+                {
+                  "item": "Tinned sardines",
+                  "qty": "about 2 tins"
+                },
+                {
+                  "item": "Wholemeal bread",
+                  "qty": "3 to 4 slices"
+                },
+                {
+                  "item": "Tomatoes",
+                  "qty": "1 tomato"
+                }
+              ],
+              "steps": [
+                "Assemble. Toast the bread, top with sardines, and serve a tomato salad with plenty of lemon.",
+                "Add lemon to the sardines and salad. Keep tea or coffee for later."
+              ],
+              "portions": {
+                "raja": "1 tin sardines, 2 slices toast, tomato salad, lemon",
+                "laurence": "About three-quarters of a tin, 1 to 2 slices toast, salad, lemon"
+              },
+              "kcal": 530
+            },
+            "dinner": {
+              "name": "Mild chicken spinach rice",
+              "ingredients": [
+                {
+                  "item": "Halal chicken breast or skinless thigh",
+                  "qty": "500g"
+                },
+                {
+                  "item": "Brown rice",
+                  "qty": "260g dry"
+                },
+                {
+                  "item": "Tinned chopped tomatoes",
+                  "qty": "1 tin"
+                },
+                {
+                  "item": "Onion",
+                  "qty": "1"
+                },
+                {
+                  "item": "Garlic",
+                  "qty": "2 cloves"
+                },
+                {
+                  "item": "Ginger",
+                  "qty": "a little"
+                },
+                {
+                  "item": "Cumin",
+                  "qty": "1 tsp"
+                },
+                {
+                  "item": "Turmeric",
+                  "qty": "1 tsp"
+                },
+                {
+                  "item": "Frozen spinach",
+                  "qty": "400g"
+                },
+                {
+                  "item": "Water",
+                  "qty": "enough to cook"
+                },
+                {
+                  "item": "Lemon",
+                  "qty": "1"
+                }
+              ],
+              "steps": [
+                "One pot. Fry 1 onion, garlic and ginger with 1 tsp cumin and 1 tsp turmeric. Add 500g diced halal chicken and cook until the outside is no longer pink. Stir in 260g dry brown rice, 1 tin tomatoes, 400g frozen spinach and enough water to cook the rice. Simmer, covered, until the rice is tender and the chicken is cooked through, about 25 minutes. Finish with lemon.",
+                "Make four portions with 500g diced halal chicken and chill half for Friday lunch."
+              ],
+              "portions": {
+                "raja": "A large bowl (from 75g dry rice plus chicken and spinach)",
+                "laurence": "A smaller bowl (from 55g dry rice plus toppings)"
+              },
+              "kcal": 600
+            }
+          }
+        },
+        {
+          "date": "2026-12-04",
+          "weekday": "Friday",
+          "meals": {
+            "breakfast": {
+              "name": "Banana porridge and an orange",
+              "ingredients": [
+                {
+                  "item": "Porridge oats",
+                  "qty": "105g"
+                },
+                {
+                  "item": "Vitamin D-fortified semi-skimmed milk",
+                  "qty": "450ml"
+                },
+                {
+                  "item": "Bananas",
+                  "qty": "2 bananas"
+                },
+                {
+                  "item": "Oranges",
+                  "qty": "2 oranges"
+                }
+              ],
+              "steps": [
+                "Cook. Simmer oats and milk for about 5 minutes. Top with banana and eat the orange on the side."
+              ],
+              "portions": {
+                "raja": "60g oats, 250ml fortified milk, 1 banana, 1 orange",
+                "laurence": "45g oats, 200ml milk, 1 small banana, 1 orange"
+              },
+              "kcal": 420
+            },
+            "lunch": {
+              "name": "Leftover chicken spinach rice with salad",
+              "ingredients": [
+                {
+                  "item": "Lemon",
+                  "qty": "1"
+                },
+                {
+                  "item": "Leftover chicken spinach rice",
+                  "qty": "2 portions"
+                },
+                {
+                  "item": "Salad vegetables",
+                  "qty": "a side"
+                }
+              ],
+              "steps": [
+                "Reheat. Warm until piping hot. Make sure the chicken is steaming hot all the way through, and serve with a lemony salad."
+              ],
+              "portions": {
+                "raja": "A large bowl of the rice, salad and lemon",
+                "laurence": "A smaller bowl, salad and lemon"
+              },
+              "kcal": 530
+            },
+            "dinner": {
+              "name": "Mackerel couscous bowl with mixed vegetables",
+              "ingredients": [
+                {
+                  "item": "Lemon",
+                  "qty": "1"
+                },
+                {
+                  "item": "Low-fat natural yogurt",
+                  "qty": "to serve"
+                },
+                {
+                  "item": "Frozen mixed vegetables",
+                  "qty": "270g"
+                },
+                {
+                  "item": "Tinned mackerel",
+                  "qty": "about 2 tins"
+                },
+                {
+                  "item": "Couscous",
+                  "qty": "105g dry"
+                }
+              ],
+              "steps": [
+                "Couscous and veg. Cover couscous with boiling water for 5 minutes. Heat the frozen vegetables.",
+                "Plate. Flake over the mackerel and spoon on yogurt mixed with lemon."
+              ],
+              "portions": {
+                "raja": "1 tin mackerel, 60g dry couscous, 150g mixed vegetables, lemon yogurt",
+                "laurence": "About three-quarters of a tin, 45g couscous, 120g vegetables, lemon yogurt"
+              },
+              "kcal": 600
+            }
+          }
+        },
+        {
+          "date": "2026-12-05",
+          "weekday": "Saturday",
+          "meals": {
+            "breakfast": {
+              "name": "Spinach omelette with toast and kiwi",
+              "ingredients": [
+                {
+                  "item": "Frozen spinach",
+                  "qty": "a handful"
+                },
+                {
+                  "item": "Kiwis",
+                  "qty": "2 kiwis"
+                },
+                {
+                  "item": "Eggs",
+                  "qty": "5 eggs"
+                },
+                {
+                  "item": "Wholemeal bread",
+                  "qty": "3 slices"
+                }
+              ],
+              "steps": [
+                "Cook. Wilt the spinach, pour in beaten eggs, and cook gently. Toast the bread and serve the kiwi on the side."
+              ],
+              "portions": {
+                "raja": "3 eggs, 80g spinach, 2 slices toast, 1 kiwi",
+                "laurence": "2 eggs, 60g spinach, 1 slice toast, 1 kiwi"
+              },
+              "kcal": 420
+            },
+            "lunch": {
+              "name": "Mild vegetable and bean stew with bread",
+              "ingredients": [
+                {
+                  "item": "Tinned chopped tomatoes",
+                  "qty": "1 tin"
+                },
+                {
+                  "item": "Tinned beans",
+                  "qty": "2 tins"
+                },
+                {
+                  "item": "Onion",
+                  "qty": "1"
+                },
+                {
+                  "item": "Cumin",
+                  "qty": "1 tsp"
+                },
+                {
+                  "item": "Turmeric",
+                  "qty": "1 tsp"
+                },
+                {
+                  "item": "Frozen spinach",
+                  "qty": "a handful"
+                },
+                {
+                  "item": "Frozen mixed vegetables",
+                  "qty": "300g"
+                },
+                {
+                  "item": "Lemon",
+                  "qty": "1"
+                },
+                {
+                  "item": "Wholemeal bread",
+                  "qty": "3 slices"
+                }
+              ],
+              "steps": [
+                "One pan. Fry 1 onion with 1 tsp cumin and 1 tsp turmeric. Add 2 tins beans, 1 tin tomatoes, 300g frozen mixed vegetables and a handful of spinach. Simmer 15 minutes. Finish with lemon and bread."
+              ],
+              "portions": {
+                "raja": "A large bowl of stew, 2 slices wholemeal bread, lemon",
+                "laurence": "A smaller bowl, 1 slice bread, lemon"
+              },
+              "kcal": 530
+            },
+            "dinner": {
+              "name": "Mild lean beef and pepper tomato curry with pittas",
+              "ingredients": [
+                {
+                  "item": "Lean halal beef mince",
+                  "qty": "350g"
+                },
+                {
+                  "item": "Tinned chopped tomatoes",
+                  "qty": "1 tin"
+                },
+                {
+                  "item": "Garlic",
+                  "qty": "2 cloves"
+                },
+                {
+                  "item": "Ginger",
+                  "qty": "a little"
+                },
+                {
+                  "item": "Oil",
+                  "qty": "1 tsp"
+                },
+                {
+                  "item": "Cumin",
+                  "qty": "1 tsp"
+                },
+                {
+                  "item": "Turmeric",
+                  "qty": "1 tsp"
+                },
+                {
+                  "item": "Pepper",
+                  "qty": "1"
+                },
+                {
+                  "item": "Lemon",
+                  "qty": "1"
+                },
+                {
+                  "item": "Wholemeal pittas",
+                  "qty": "3 pittas"
+                }
+              ],
+              "steps": [
+                "Cook the mince. Fry onion, garlic, ginger and 1 chopped pepper with 1 tsp cumin and 1 tsp turmeric in 1 tsp oil. Add 350g lean halal beef mince (5% fat if you can), break it up, and cook until no longer pink. Spoon off any extra fat.",
+                "Make the curry. Add 1 tin tomatoes, simmer 10 minutes, and serve with pittas, salad and lemon."
+              ],
+              "portions": {
+                "raja": "Half the pan (350g lean halal beef mince is for both), 2 pittas, salad",
+                "laurence": "A little under half the pan, 1 pitta, salad"
+              },
+              "kcal": 600
+            }
+          }
+        }
+      ],
+      "shopping": [
+        {
+          "aisle": "Dry goods and bread",
+          "estimatedCost": 5.55,
+          "items": [
+            {
+              "item": "Wholemeal bread",
+              "qty": "2 loaves"
+            },
+            {
+              "item": "Wholemeal pittas",
+              "qty": "2 packs of 6"
+            },
+            {
+              "item": "Brown rice or lentils, only if low",
+              "qty": "1 kg if needed"
+            }
+          ]
+        },
+        {
+          "aisle": "Tins",
+          "estimatedCost": 10.55,
+          "items": [
+            {
+              "item": "Chickpeas",
+              "qty": "2 x 400 g"
+            },
+            {
+              "item": "Chopped tomatoes",
+              "qty": "5 x 400 g"
+            },
+            {
+              "item": "Tuna in spring water",
+              "qty": "2 tins"
+            },
+            {
+              "item": "Sardines",
+              "qty": "2 tins"
+            },
+            {
+              "item": "Mackerel",
+              "qty": "4 tins"
+            },
+            {
+              "item": "Cannellini or mixed beans",
+              "qty": "2 x 400 g"
+            }
+          ]
+        },
+        {
+          "aisle": "Fridge and halal meat",
+          "estimatedCost": 22.6,
+          "items": [
+            {
+              "item": "Vitamin D-fortified semi-skimmed milk",
+              "qty": "2 x 4 pints"
+            },
+            {
+              "item": "Low-fat natural yogurt",
+              "qty": "2 x 1 kg"
+            },
+            {
+              "item": "Medium eggs",
+              "qty": "15"
+            },
+            {
+              "item": "Halal chicken breast or skinless thigh",
+              "qty": "1 kg"
+            },
+            {
+              "item": "Lean halal lamb mince",
+              "qty": "350 to 400 g"
+            },
+            {
+              "item": "Lean halal beef mince (5% fat if you can)",
+              "qty": "350 to 400 g"
+            },
+            {
+              "item": "Reduced-fat hummus",
+              "qty": "200 g"
+            }
+          ]
+        },
+        {
+          "aisle": "Frozen",
+          "estimatedCost": 9.48,
+          "items": [
+            {
+              "item": "White fish fillets",
+              "qty": "About 500 g"
+            },
+            {
+              "item": "Spinach",
+              "qty": "1 to 2 kg"
+            },
+            {
+              "item": "Mixed berries",
+              "qty": "500 g"
+            },
+            {
+              "item": "Mixed vegetables",
+              "qty": "1 kg"
+            },
+            {
+              "item": "Peas",
+              "qty": "500 g, if needed"
+            }
+          ]
+        },
+        {
+          "aisle": "Fruit and vegetables",
+          "estimatedCost": 15.05,
+          "items": [
+            {
+              "item": "Bananas",
+              "qty": "8"
+            },
+            {
+              "item": "Eating apples",
+              "qty": "6"
+            },
+            {
+              "item": "Oranges",
+              "qty": "6"
+            },
+            {
+              "item": "Kiwis",
+              "qty": "6"
+            },
+            {
+              "item": "Lemons",
+              "qty": "8"
+            },
+            {
+              "item": "Onions",
+              "qty": "1 kg"
+            },
+            {
+              "item": "Carrots",
+              "qty": "1 kg"
+            },
+            {
+              "item": "Potatoes",
+              "qty": "2.5 kg"
+            },
+            {
+              "item": "Cucumbers",
+              "qty": "3"
+            },
+            {
+              "item": "Tomatoes",
+              "qty": "2 packs"
+            },
+            {
+              "item": "Peppers",
+              "qty": "3"
+            },
+            {
+              "item": "Mushrooms",
+              "qty": "300 g"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "2026-12-06",
+      "name": "6–12 December",
+      "days": [
+        {
+          "date": "2026-12-06",
+          "weekday": "Sunday",
+          "meals": {
+            "breakfast": {
+              "name": "Overnight oats with berries and seeds",
+              "ingredients": [
+                {
+                  "item": "Porridge oats",
+                  "qty": "105g"
+                },
+                {
+                  "item": "Vitamin D-fortified semi-skimmed milk",
+                  "qty": "350ml"
+                },
+                {
+                  "item": "Pumpkin seeds",
+                  "qty": "25g"
+                },
+                {
+                  "item": "Frozen berries",
+                  "qty": "140g"
+                }
+              ],
+              "steps": [
+                "The night before. Mix oats and milk and chill.",
+                "In the morning. Top with berries and seeds."
+              ],
+              "portions": {
+                "raja": "60g oats, 200ml fortified milk, 80g berries, 15g pumpkin seeds",
+                "laurence": "45g oats, 150ml milk, 60g berries, 10g seeds"
+              },
+              "kcal": 420
+            },
+            "lunch": {
+              "name": "Mild chicken and pea masala with rice",
+              "ingredients": [
+                {
+                  "item": "Halal chicken breast or skinless thigh",
+                  "qty": "500g"
+                },
+                {
+                  "item": "Tinned chopped tomatoes",
+                  "qty": "1 tin"
+                },
+                {
+                  "item": "Garlic",
+                  "qty": "2 cloves"
+                },
+                {
+                  "item": "Ginger",
+                  "qty": "a little"
+                },
+                {
+                  "item": "Cumin",
+                  "qty": "1 tsp"
+                },
+                {
+                  "item": "Turmeric",
+                  "qty": "1 tsp"
+                },
+                {
+                  "item": "Frozen peas",
+                  "qty": "200g"
+                },
+                {
+                  "item": "Lemon",
+                  "qty": "1"
+                },
+                {
+                  "item": "Brown rice",
+                  "qty": "260g dry"
+                }
+              ],
+              "steps": [
+                "Cook the rice. Boil the rice.",
+                "Finish the masala. Fry onion, garlic and ginger with 1 tsp cumin and 1 tsp turmeric. Add 500g diced halal chicken and cook until the outside is no longer pink. Add 1 tin tomatoes and 200g frozen peas. Simmer 10 minutes until the chicken is cooked through. Finish with lemon.",
+                "Make four portions with 500g diced halal chicken and chill half for Monday lunch."
+              ],
+              "portions": {
+                "raja": "75g dry rice and a large ladle of masala",
+                "laurence": "55g dry rice and a smaller ladle"
+              },
+              "kcal": 530
+            },
+            "dinner": {
+              "name": "White fish tray-bake with potatoes and vegetables",
+              "ingredients": [
+                {
+                  "item": "Lemon",
+                  "qty": "1"
+                },
+                {
+                  "item": "White fish fillets",
+                  "qty": "270g"
+                },
+                {
+                  "item": "Frozen mixed vegetables",
+                  "qty": "350g"
+                },
+                {
+                  "item": "Potatoes",
+                  "qty": "350g"
+                },
+                {
+                  "item": "Oil",
+                  "qty": "1 tsp"
+                },
+                {
+                  "item": "Cumin",
+                  "qty": "1 tsp"
+                }
+              ],
+              "steps": [
+                "Start the potatoes. Heat the oven to 200°C. Cube the potatoes, toss with oil, and roast 10 minutes.",
+                "Add fish and veg. Add frozen fillets and mixed vegetables, season with cumin, pepper and lemon, and bake 15–20 minutes until the fish is cooked through."
+              ],
+              "portions": {
+                "raja": "150g white fish, 200g potatoes, 200g mixed vegetables, 1 tsp oil, lemon, cumin",
+                "laurence": "120g fish, 150g potatoes, 150g vegetables, lemon and cumin"
+              },
+              "kcal": 600
+            }
+          }
+        },
+        {
+          "date": "2026-12-07",
+          "weekday": "Monday",
+          "meals": {
+            "breakfast": {
+              "name": "Eggs on toast with tomato and orange",
+              "ingredients": [
+                {
+                  "item": "Oranges",
+                  "qty": "2 oranges"
+                },
+                {
+                  "item": "Eggs",
+                  "qty": "5 eggs"
+                },
+                {
+                  "item": "Wholemeal bread",
+                  "qty": "3 slices"
+                },
+                {
+                  "item": "Tomatoes",
+                  "qty": "2 tomatoes"
+                }
+              ],
+              "steps": [
+                "Cook the eggs, grill the tomato, toast the bread, and eat the orange on the side."
+              ],
+              "portions": {
+                "raja": "3 eggs, 1 tomato, 2 slices toast, 1 orange",
+                "laurence": "2 eggs, 1 tomato, 1 slice toast, 1 orange"
+              },
+              "kcal": 420
+            },
+            "lunch": {
+              "name": "Leftover chicken and pea masala with rice",
+              "ingredients": [
+                {
+                  "item": "Cooked brown rice",
+                  "qty": "350g, from yesterday"
+                },
+                {
+                  "item": "Lemon",
+                  "qty": "1"
+                },
+                {
+                  "item": "Leftover chicken and pea masala",
+                  "qty": "2 portions"
+                },
+                {
+                  "item": "Salad vegetables",
+                  "qty": "a side"
+                }
+              ],
+              "steps": [
+                "Reheat. Warm until piping hot and serve with a lemony salad."
+              ],
+              "portions": {
+                "raja": "A large plate of masala, about 200g cooked rice, salad and lemon",
+                "laurence": "A smaller plate, about 150g cooked rice, salad and lemon"
+              },
+              "kcal": 520
+            },
+            "dinner": {
+              "name": "Sardine and spinach pasta with lemon",
+              "ingredients": [
+                {
+                  "item": "Garlic",
+                  "qty": "2 cloves"
+                },
+                {
+                  "item": "Black pepper",
+                  "qty": "a pinch"
+                },
+                {
+                  "item": "Frozen spinach",
+                  "qty": "a handful"
+                },
+                {
+                  "item": "Lemon",
+                  "qty": "1"
+                },
+                {
+                  "item": "Tinned sardines",
+                  "qty": "about 2 tins"
+                },
+                {
+                  "item": "Wholemeal pasta",
+                  "qty": "130g dry"
+                },
+                {
+                  "item": "Tomatoes",
+                  "qty": "2 tomatoes"
+                }
+              ],
+              "steps": [
+                "Boil the pasta. Cook the pasta according to the pack.",
+                "Toss the sauce. Warm chopped tomato with garlic and black pepper, wilt in the spinach, flake in the sardines, and toss with pasta and lemon."
+              ],
+              "portions": {
+                "raja": "75g dry wholemeal pasta, 1 tin sardines, 80g spinach, tomato, lemon",
+                "laurence": "55g dry pasta, most of 1 tin sardines, 60g spinach, tomato, lemon"
+              },
+              "kcal": 600
+            }
+          }
+        },
+        {
+          "date": "2026-12-08",
+          "weekday": "Tuesday",
+          "meals": {
+            "breakfast": {
+              "name": "Apple cinnamon porridge",
+              "ingredients": [
+                {
+                  "item": "Cinnamon",
+                  "qty": "a pinch"
+                },
+                {
+                  "item": "Porridge oats",
+                  "qty": "105g"
+                },
+                {
+                  "item": "Vitamin D-fortified semi-skimmed milk",
+                  "qty": "450ml"
+                },
+                {
+                  "item": "Pumpkin seeds",
+                  "qty": "25g"
+                },
+                {
+                  "item": "Apples",
+                  "qty": "2 apples"
+                }
+              ],
+              "steps": [
+                "Cook. Simmer oats and milk for about 5 minutes. Top with grated or sliced apple, cinnamon and seeds."
+              ],
+              "portions": {
+                "raja": "60g oats, 250ml fortified milk, 1 apple, cinnamon, 15g pumpkin seeds",
+                "laurence": "45g oats, 200ml milk, 1 small apple, cinnamon, 10g seeds"
+              },
+              "kcal": 420
+            },
+            "lunch": {
+              "name": "Yogurt-cumin chickpea pittas",
+              "ingredients": [
+                {
+                  "item": "Lemon",
+                  "qty": "1"
+                },
+                {
+                  "item": "Low-fat natural yogurt",
+                  "qty": "about 100g"
+                },
+                {
+                  "item": "Tinned chickpeas",
+                  "qty": "about 2 tins"
+                },
+                {
+                  "item": "Wholemeal pittas",
+                  "qty": "3 pittas"
+                },
+                {
+                  "item": "Cucumber",
+                  "qty": "1"
+                },
+                {
+                  "item": "Tomatoes",
+                  "qty": "1 tomato"
+                },
+                {
+                  "item": "Cumin",
+                  "qty": "1 tsp"
+                }
+              ],
+              "steps": [
+                "Mix and fill. Rinse the chickpeas and toss with yogurt, cumin, lemon, cucumber and tomato. Fill toasted pittas."
+              ],
+              "portions": {
+                "raja": "1 tin chickpeas, 2 pittas, cucumber, tomato, 60g yogurt, cumin, lemon",
+                "laurence": "About three-quarters of a tin, 1 pitta, the same salad, yogurt, cumin, lemon"
+              },
+              "kcal": 530
+            },
+            "dinner": {
+              "name": "Mild chicken and vegetable curry with rice",
+              "ingredients": [
+                {
+                  "item": "Halal chicken breast or skinless thigh",
+                  "qty": "400g"
+                },
+                {
+                  "item": "Tinned chopped tomatoes",
+                  "qty": "1 tin"
+                },
+                {
+                  "item": "Garlic",
+                  "qty": "2 cloves"
+                },
+                {
+                  "item": "Ginger",
+                  "qty": "a little"
+                },
+                {
+                  "item": "Cumin",
+                  "qty": "1 tsp"
+                },
+                {
+                  "item": "Turmeric",
+                  "qty": "1 tsp"
+                },
+                {
+                  "item": "Frozen spinach",
+                  "qty": "a handful"
+                },
+                {
+                  "item": "Frozen mixed vegetables",
+                  "qty": "300g"
+                },
+                {
+                  "item": "Lemon",
+                  "qty": "1"
+                },
+                {
+                  "item": "Brown rice",
+                  "qty": "130g dry"
+                }
+              ],
+              "steps": [
+                "Rice and chicken. Boil the rice. Fry onion, garlic and ginger with 1 tsp cumin and 1 tsp turmeric. Add 400g diced halal chicken and cook until the outside is no longer pink.",
+                "Simmer. Add 1 tin tomatoes, 300g frozen mixed vegetables and a handful of spinach. Simmer 10 minutes until the chicken is cooked through. Finish with lemon."
+              ],
+              "portions": {
+                "raja": "75g dry rice and a large plate of curry",
+                "laurence": "55g dry rice and a smaller plate"
+              },
+              "kcal": 600
+            }
+          }
+        },
+        {
+          "date": "2026-12-09",
+          "weekday": "Wednesday",
+          "meals": {
+            "breakfast": {
+              "name": "Yogurt bowl with banana, seeds and oats",
+              "ingredients": [
+                {
+                  "item": "Porridge oats",
+                  "qty": "35g"
+                },
+                {
+                  "item": "Pumpkin seeds",
+                  "qty": "25g"
+                },
+                {
+                  "item": "Bananas",
+                  "qty": "2 bananas"
+                },
+                {
+                  "item": "Low-fat natural yogurt",
+                  "qty": "350g"
+                }
+              ],
+              "steps": [
+                "Assemble. Spoon the yogurt into bowls and top with sliced banana, seeds and oats."
+              ],
+              "portions": {
+                "raja": "200g yogurt, 1 banana, 15g pumpkin seeds, 20g oats",
+                "laurence": "150g yogurt, 1 small banana, 10g seeds, 15g oats"
+              },
+              "kcal": 420
+            },
+            "lunch": {
+              "name": "Tuna yogurt jacket potatoes with salad",
+              "ingredients": [
+                {
+                  "item": "Lemon",
+                  "qty": "1"
+                },
+                {
+                  "item": "Low-fat natural yogurt",
+                  "qty": "110g"
+                },
+                {
+                  "item": "Potatoes",
+                  "qty": "520g"
+                },
+                {
+                  "item": "Tuna in spring water",
+                  "qty": "about 1.5 tins"
+                }
+              ],
+              "steps": [
+                "Cook the potatoes. Bake or microwave-then-crisp the potatoes.",
+                "Fill. Mix tuna with yogurt and lemon, fill the potatoes, and serve with a mixed salad."
+              ],
+              "portions": {
+                "raja": "1 large potato (about 300g), 1 tin tuna, 60g yogurt, lemon, salad",
+                "laurence": "About 220g potato, about 80g tuna, 50g yogurt, lemon, salad"
+              },
+              "kcal": 530
+            },
+            "dinner": {
+              "name": "Mackerel, peas and boiled potatoes",
+              "ingredients": [
+                {
+                  "item": "Lemon",
+                  "qty": "1"
+                },
+                {
+                  "item": "Low-fat natural yogurt",
+                  "qty": "to serve"
+                },
+                {
+                  "item": "Frozen peas",
+                  "qty": "220g"
+                },
+                {
+                  "item": "Potatoes",
+                  "qty": "430g"
+                },
+                {
+                  "item": "Tinned mackerel",
+                  "qty": "about 2 tins"
+                }
+              ],
+              "steps": [
+                "Boil and plate. Boil the potatoes until tender, adding peas for the last 3 minutes. Flake over the mackerel and add yogurt mixed with lemon."
+              ],
+              "portions": {
+                "raja": "250g potatoes, 1 tin mackerel, 120g peas, lemon yogurt",
+                "laurence": "180g potatoes, most of 1 tin mackerel, 100g peas, lemon yogurt"
+              },
+              "kcal": 600
+            }
+          }
+        },
+        {
+          "date": "2026-12-10",
+          "weekday": "Thursday",
+          "meals": {
+            "breakfast": {
+              "name": "Scrambled eggs with spinach, toast and kiwi",
+              "ingredients": [
+                {
+                  "item": "Frozen spinach",
+                  "qty": "a handful"
+                },
+                {
+                  "item": "Kiwis",
+                  "qty": "2 kiwis"
+                },
+                {
+                  "item": "Eggs",
+                  "qty": "5 eggs"
+                },
+                {
+                  "item": "Wholemeal bread",
+                  "qty": "3 slices"
+                }
+              ],
+              "steps": [
+                "Cook. Wilt the spinach, soft-scramble the eggs, toast the bread, and serve the kiwi on the side."
+              ],
+              "portions": {
+                "raja": "3 eggs, 80g spinach, 2 slices toast, 1 kiwi",
+                "laurence": "2 eggs, 60g spinach, 1 slice toast, 1 kiwi"
+              },
+              "kcal": 420
+            },
+            "lunch": {
+              "name": "Spinach, tomato and egg salad with bread",
+              "ingredients": [
+                {
+                  "item": "Oil",
+                  "qty": "1 tsp"
+                },
+                {
+                  "item": "Lemon",
+                  "qty": "1"
+                },
+                {
+                  "item": "Eggs",
+                  "qty": "3 to 4 eggs"
+                },
+                {
+                  "item": "Frozen spinach",
+                  "qty": "a handful"
+                },
+                {
+                  "item": "Wholemeal bread",
+                  "qty": "3 slices"
+                },
+                {
+                  "item": "Cucumber",
+                  "qty": "1"
+                },
+                {
+                  "item": "Tomatoes",
+                  "qty": "2 tomatoes"
+                }
+              ],
+              "steps": [
+                "Assemble. Boil the eggs, peel and quarter them, and toss with spinach, tomato, cucumber, lemon and 1 tsp oil. Serve with bread."
+              ],
+              "portions": {
+                "raja": "2 eggs, spinach, tomato, cucumber, 2 slices bread, lemon, 1 tsp oil",
+                "laurence": "1 to 2 eggs, spinach, tomato, cucumber, 1 slice bread, lemon, oil"
+              },
+              "kcal": 530
+            },
+            "dinner": {
+              "name": "Mild lean lamb keema with rice and raita",
+              "ingredients": [
+                {
+                  "item": "Lean halal lamb mince",
+                  "qty": "500g"
+                },
+                {
+                  "item": "Tinned chopped tomatoes",
+                  "qty": "1 tin"
+                },
+                {
+                  "item": "Garlic",
+                  "qty": "2 cloves"
+                },
+                {
+                  "item": "Ginger",
+                  "qty": "a little"
+                },
+                {
+                  "item": "Oil",
+                  "qty": "1 tsp"
+                },
+                {
+                  "item": "Cumin",
+                  "qty": "1 tsp"
+                },
+                {
+                  "item": "Turmeric",
+                  "qty": "1 tsp"
+                },
+                {
+                  "item": "Frozen spinach",
+                  "qty": "a handful"
+                },
+                {
+                  "item": "Lemon",
+                  "qty": "1"
+                },
+                {
+                  "item": "Low-fat natural yogurt",
+                  "qty": "140g"
+                },
+                {
+                  "item": "Cucumber",
+                  "qty": "1"
+                },
+                {
+                  "item": "Brown rice",
+                  "qty": "260g dry"
+                }
+              ],
+              "steps": [
+                "Cook the rice. Boil the rice.",
+                "Keema and raita. Fry onion, garlic and ginger in 1 tsp oil with 1 tsp cumin and 1 tsp turmeric. Add 500g lean halal lamb mince, break it up, and cook until no longer pink. Spoon off any extra fat. Stir in 1 tin tomatoes, a handful of spinach and lemon, and simmer 10 minutes. Mix yogurt with grated cucumber for raita.",
+                "Make four portions with 500g lean halal lamb mince and chill half for Friday lunch. Spoon off any extra fat."
+              ],
+              "portions": {
+                "raja": "75g dry rice, a large ladle of keema, 80g yogurt raita",
+                "laurence": "55g dry rice, a smaller ladle, 60g raita"
+              },
+              "kcal": 600
+            }
+          }
+        },
+        {
+          "date": "2026-12-11",
+          "weekday": "Friday",
+          "meals": {
+            "breakfast": {
+              "name": "Berry porridge and an orange",
+              "ingredients": [
+                {
+                  "item": "Porridge oats",
+                  "qty": "105g"
+                },
+                {
+                  "item": "Vitamin D-fortified semi-skimmed milk",
+                  "qty": "450ml"
+                },
+                {
+                  "item": "Frozen berries",
+                  "qty": "140g"
+                },
+                {
+                  "item": "Oranges",
+                  "qty": "2 oranges"
+                }
+              ],
+              "steps": [
+                "Cook. Simmer oats and milk for about 5 minutes. Top with berries and eat the orange on the side."
+              ],
+              "portions": {
+                "raja": "60g oats, 250ml fortified milk, 80g berries, 1 orange",
+                "laurence": "45g oats, 200ml milk, 60g berries, 1 orange"
+              },
+              "kcal": 420
+            },
+            "lunch": {
+              "name": "Leftover lean lamb keema with bread and salad",
+              "ingredients": [
+                {
+                  "item": "Wholemeal bread",
+                  "qty": "3 slices"
+                },
+                {
+                  "item": "Lemon",
+                  "qty": "1"
+                },
+                {
+                  "item": "Leftover lean lamb keema",
+                  "qty": "2 portions"
+                },
+                {
+                  "item": "Salad vegetables",
+                  "qty": "a side"
+                }
+              ],
+              "steps": [
+                "Reheat. Warm the keema until piping hot and serve with bread, salad and lemon."
+              ],
+              "portions": {
+                "raja": "A large bowl of keema, 2 slices bread, salad and lemon",
+                "laurence": "A smaller bowl, 1 slice bread, salad and lemon"
+              },
+              "kcal": 530
+            },
+            "dinner": {
+              "name": "Tinned salmon couscous with cucumber and lemon",
+              "ingredients": [
+                {
+                  "item": "Lemon",
+                  "qty": "1"
+                },
+                {
+                  "item": "Frozen mixed vegetables",
+                  "qty": "150g"
+                },
+                {
+                  "item": "Tinned salmon",
+                  "qty": "about 2 tins"
+                },
+                {
+                  "item": "Couscous",
+                  "qty": "105g dry"
+                },
+                {
+                  "item": "Cucumber",
+                  "qty": "1"
+                },
+                {
+                  "item": "Tomatoes",
+                  "qty": "1 tomato"
+                }
+              ],
+              "steps": [
+                "Couscous and veg. Cover couscous with boiling water for 5 minutes. Heat the frozen vegetables.",
+                "Plate. Flake the salmon over the couscous with cucumber, tomato, vegetables and plenty of lemon."
+              ],
+              "portions": {
+                "raja": "1 tin salmon, 60g dry couscous, cucumber, tomato, 150g mixed vegetables, lemon",
+                "laurence": "Most of 1 tin salmon, 45g couscous, the same salad vegetables, lemon"
+              },
+              "kcal": 600
+            }
+          }
+        },
+        {
+          "date": "2026-12-12",
+          "weekday": "Saturday",
+          "meals": {
+            "breakfast": {
+              "name": "Mild tomato omelette with toast and orange",
+              "ingredients": [
+                {
+                  "item": "Turmeric",
+                  "qty": "a pinch"
+                },
+                {
+                  "item": "Oranges",
+                  "qty": "2 oranges"
+                },
+                {
+                  "item": "Eggs",
+                  "qty": "5 eggs"
+                },
+                {
+                  "item": "Wholemeal bread",
+                  "qty": "3 slices"
+                },
+                {
+                  "item": "Tomatoes",
+                  "qty": "2 tomatoes"
+                },
+                {
+                  "item": "Onion",
+                  "qty": "a little"
+                }
+              ],
+              "steps": [
+                "Cook. Gently cook chopped onion and tomato with a pinch of turmeric, pour in beaten eggs, and cook until just set. Toast the bread and eat the orange on the side."
+              ],
+              "portions": {
+                "raja": "3 eggs, 1 tomato, a little onion, 2 slices toast, 1 orange",
+                "laurence": "2 eggs, 1 tomato, a little onion, 1 slice toast, 1 orange"
+              },
+              "kcal": 420
+            },
+            "lunch": {
+              "name": "Mixed bean and pepper salad with lemon",
+              "ingredients": [
+                {
+                  "item": "Oil",
+                  "qty": "1 tsp"
+                },
+                {
+                  "item": "Black pepper",
+                  "qty": "a pinch"
+                },
+                {
+                  "item": "Pepper",
+                  "qty": "1"
+                },
+                {
+                  "item": "Lemon",
+                  "qty": "1"
+                },
+                {
+                  "item": "Tinned beans",
+                  "qty": "2.5 tins"
+                },
+                {
+                  "item": "Wholemeal pittas",
+                  "qty": "2 pittas"
+                },
+                {
+                  "item": "Cucumber",
+                  "qty": "1"
+                },
+                {
+                  "item": "Tomatoes",
+                  "qty": "1 tomato"
+                }
+              ],
+              "steps": [
+                "Toss. Drain the beans and mix with chopped pepper, cucumber and tomato, lemon, 1 tsp oil and black pepper. Serve with a pitta."
+              ],
+              "portions": {
+                "raja": "1 and a half tins of beans, peppers, cucumber, tomato, 1 tsp oil, lemon, 1 pitta",
+                "laurence": "1 tin of beans, the same salad, oil, lemon, 1 pitta"
+              },
+              "kcal": 530
+            },
+            "dinner": {
+              "name": "Mild lean beef, mushroom and spinach curry with pittas",
+              "ingredients": [
+                {
+                  "item": "Lean halal beef mince",
+                  "qty": "350g"
+                },
+                {
+                  "item": "Tinned chopped tomatoes",
+                  "qty": "1 tin"
+                },
+                {
+                  "item": "Onion",
+                  "qty": "1"
+                },
+                {
+                  "item": "Garlic",
+                  "qty": "2 cloves"
+                },
+                {
+                  "item": "Oil",
+                  "qty": "1 tsp"
+                },
+                {
+                  "item": "Cumin",
+                  "qty": "1 tsp"
+                },
+                {
+                  "item": "Turmeric",
+                  "qty": "1 tsp"
+                },
+                {
+                  "item": "Frozen spinach",
+                  "qty": "400g"
+                },
+                {
+                  "item": "Mushrooms",
+                  "qty": "300g"
+                },
+                {
+                  "item": "Lemon",
+                  "qty": "1"
+                },
+                {
+                  "item": "Wholemeal pittas",
+                  "qty": "3 pittas"
+                }
+              ],
+              "steps": [
+                "Cook the mushrooms and mince. Fry 300g sliced mushrooms and 1 onion in 1 tsp oil with garlic, 1 tsp cumin and 1 tsp turmeric. Add 350g lean halal beef mince (5% fat if you can), break it up, and cook until no longer pink. Spoon off any extra fat.",
+                "Simmer. Add 1 tin tomatoes and 400g frozen spinach. Simmer 10 minutes. Finish with lemon and serve with pittas and salad."
+              ],
+              "portions": {
+                "raja": "A large plate of curry (350g lean halal beef mince is for both), 2 pittas, salad",
+                "laurence": "A smaller plate, 1 pitta, salad"
+              },
+              "kcal": 600
+            }
+          }
+        }
+      ],
+      "shopping": [
+        {
+          "aisle": "Dry goods and bread",
+          "estimatedCost": 4.45,
+          "items": [
+            {
+              "item": "Wholemeal bread",
+              "qty": "2 loaves"
+            },
+            {
+              "item": "Wholemeal pittas",
+              "qty": "1 pack of 6"
+            },
+            {
+              "item": "Wholemeal pasta",
+              "qty": "500 g"
+            },
+            {
+              "item": "Couscous, only if low",
+              "qty": "500 g if needed"
+            }
+          ]
+        },
+        {
+          "aisle": "Tins",
+          "estimatedCost": 11.45,
+          "items": [
+            {
+              "item": "Chickpeas",
+              "qty": "2 x 400 g"
+            },
+            {
+              "item": "Chopped tomatoes",
+              "qty": "4 x 400 g"
+            },
+            {
+              "item": "Tuna in spring water",
+              "qty": "2 tins"
+            },
+            {
+              "item": "Sardines",
+              "qty": "2 tins"
+            },
+            {
+              "item": "Mackerel",
+              "qty": "2 tins"
+            },
+            {
+              "item": "Tinned salmon",
+              "qty": "2 tins"
+            },
+            {
+              "item": "Mixed beans",
+              "qty": "3 x 400 g"
+            }
+          ]
+        },
+        {
+          "aisle": "Fridge and halal meat",
+          "estimatedCost": 22.33,
+          "items": [
+            {
+              "item": "Vitamin D-fortified semi-skimmed milk",
+              "qty": "2 x 4 pints"
+            },
+            {
+              "item": "Low-fat natural yogurt",
+              "qty": "2 x 1 kg"
+            },
+            {
+              "item": "Medium eggs",
+              "qty": "18 if you can, otherwise 15"
+            },
+            {
+              "item": "Halal chicken breast or skinless thigh",
+              "qty": "800 g to 1 kg"
+            },
+            {
+              "item": "Lean halal lamb mince",
+              "qty": "350 to 400 g"
+            },
+            {
+              "item": "Lean halal beef mince (5% fat if you can)",
+              "qty": "350 to 400 g"
+            },
+            {
+              "item": "Reduced-fat hummus, if you want the usual snack",
+              "qty": "200 g"
+            }
+          ]
+        },
+        {
+          "aisle": "Frozen",
+          "estimatedCost": 8.8,
+          "items": [
+            {
+              "item": "White fish fillets",
+              "qty": "About 500 g"
+            },
+            {
+              "item": "Spinach",
+              "qty": "1 kg"
+            },
+            {
+              "item": "Mixed berries",
+              "qty": "500 g"
+            },
+            {
+              "item": "Mixed vegetables",
+              "qty": "1 kg"
+            },
+            {
+              "item": "Peas",
+              "qty": "500 g, if needed"
+            }
+          ]
+        },
+        {
+          "aisle": "Fruit and vegetables",
+          "estimatedCost": 15.05,
+          "items": [
+            {
+              "item": "Bananas",
+              "qty": "8"
+            },
+            {
+              "item": "Eating apples",
+              "qty": "6"
+            },
+            {
+              "item": "Oranges",
+              "qty": "6"
+            },
+            {
+              "item": "Kiwis",
+              "qty": "6"
+            },
+            {
+              "item": "Lemons",
+              "qty": "8"
+            },
+            {
+              "item": "Onions",
+              "qty": "1 kg"
+            },
+            {
+              "item": "Carrots",
+              "qty": "1 kg"
+            },
+            {
+              "item": "Potatoes",
+              "qty": "2.5 kg"
+            },
+            {
+              "item": "Cucumbers",
+              "qty": "3"
+            },
+            {
+              "item": "Tomatoes",
+              "qty": "2 packs"
+            },
+            {
+              "item": "Peppers",
+              "qty": "3"
+            },
+            {
+              "item": "Mushrooms",
+              "qty": "300 g"
+            }
           ]
         }
       ]

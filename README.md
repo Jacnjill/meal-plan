@@ -4,7 +4,7 @@ A phone-friendly page for reading the weekly meals. It is plain HTML, CSS, and J
 
 **Site:** https://jacnjill.github.io/meal-plan/
 
-The file in the repo today is one sample week (9–15 November 2026) so the page has something to show. Replace it with the real plan when you have it. Today and Tomorrow follow the date in London, so they only fill in when that date is in `data/plan.json`. Other dates still appear under Week.
+The plan in the repo runs from 15 November to 12 December 2026, in four weeks. Today and Tomorrow follow the date in Europe/London. If that date is not in the file, the page shows the next planned day instead of an empty screen.
 
 ## Update the meals
 
@@ -49,8 +49,9 @@ Edit [`data/plan.json`](data/plan.json). The page reads that file in the browser
 - `date` is `YYYY-MM-DD`. `weekday` must match that date.
 - Each day needs `breakfast`, `lunch`, and `dinner`.
 - `ingredients` are `{ "item", "qty" }`. `steps` are short lines of text.
-- `portions.raja` and `portions.laurence` say how to plate the meal. Keep them as plate, bowl, or slice descriptions.
-- `kcal` is an estimate per serving. The page always shows it as an estimate.
+- `portions.raja` and `portions.laurence` say how each plate is served. The page notes that Laurence's portions are smaller.
+- `kcal` is Raja's approximate figure. The page shows it as `Raja ~380 kcal`. Calories are estimates.
+- `notes` is optional text on the whole plan. If you set it, the Week view shows it in an info box.
 - `shopping` is grouped by aisle. `estimatedCost` is a rough aisle total in pounds.
 - `id` is used for the week tab and for shopping ticks. Use a new id for each week.
 - Shopping ticks live in the phone's browser only. Changing an item's name or quantity starts that line unticked.
@@ -63,7 +64,7 @@ node scripts/check-plan.js
 
 ## What the page does
 
-- **Today** and **Tomorrow** use the phone's clock, in Europe/London.
+- **Today** and **Tomorrow** use the phone's clock, in Europe/London. A date with no meals shows the next day that does.
 - **Week** has a tab for each week. Open a meal for ingredients and steps.
 - **Shopping** has a checkbox per line. Ticks are saved in `localStorage` on that phone.
 - Each meal has a note box, and there is a general one at the bottom. **Email this note** opens the phone's mail app. The subject starts with `DIET feedback:` plus the date and the meal. Nothing is stored on a server.

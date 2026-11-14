@@ -288,13 +288,39 @@ main { padding: 1.25rem 0 0.5rem; }
 
 .kcal {
   display: inline-block;
-  margin: 0 0 0.9rem;
+  margin: 0 0 0.35rem;
   padding: 0.25rem 0.7rem;
   border-radius: 999px;
   background: var(--bg);
   color: var(--muted);
   font-size: 1rem;
   font-weight: 800;
+}
+
+.portion-note {
+  margin: 0 0 0.85rem;
+  color: var(--muted);
+  font-size: 1rem;
+}
+
+.fallback,
+.plan-note {
+  margin: 0;
+  padding: 0.8rem 0.95rem;
+  border-radius: 14px;
+  background: var(--gold-soft);
+  border: 1px solid var(--line);
+}
+
+.plan-note p { margin: 0; }
+
+.plan-note-label {
+  margin: 0 0 0.2rem;
+  font-size: 0.95rem;
+  font-weight: 800;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--gold);
 }
 
 .portions {
@@ -509,21 +535,22 @@ button:disabled {
 
 .tabs {
   display: flex;
+  flex-wrap: wrap;
   gap: 0.5rem;
-  overflow-x: auto;
   padding: 0.15rem 0 0.8rem;
   margin: 0;
 }
 
 .tabs button {
-  flex: 0 0 auto;
+  flex: 1 1 9.5rem;
   min-height: 48px;
-  padding: 0.45rem 1rem;
+  padding: 0.45rem 0.9rem;
   border-radius: 999px;
   border: 1px solid var(--line);
   background: var(--card);
   color: var(--ink);
   font-weight: 800;
+  text-align: center;
   cursor: pointer;
 }
 

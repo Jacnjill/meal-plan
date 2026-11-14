@@ -109,7 +109,7 @@ function portionEntries(portions) {
 function kcalLabel(kcal) {
   const number = Number(kcal);
   if (!Number.isFinite(number)) return '';
-  return 'About ' + Math.round(number) + ' kcal (estimate)';
+  return 'Raja ~' + Math.round(number) + ' kcal';
 }
 
 function money(amount, currency) {
@@ -159,9 +159,22 @@ function weekById(id) {
   return plan.weeks.find(function (week) { return week.id === id; }) || null;
 }
 
+function upcomingDay(iso) {
+  let best = null;
+  plan.weeks.forEach(function (week) {
+    week.days.forEach(function (day) {
+      if (day.date >= iso && (!best || day.date < best.day.date)) {
+        best = { week: week, day: day };
+      }
+    });
+  });
+  return best;
+}
+
 function defaultWeek() {
-  const today = findDay(londonISODate(0));
-  return (today && today.week) || plan.weeks[0];
+  const today = londonISODate(0);
+  const found = findDay(today) || upcomingDay(today);
+  return (found && found.week) || plan.weeks[0];
 }
 
 function buildMailto(options) {
@@ -281,6 +294,7 @@ function mealCard(day, slot, label, meal, level) {
     el('p', { class: 'kicker' }, label),
     title,
     kcal ? el('p', { class: 'kcal' }, kcal) : null,
+    portions.length ? el('p', { class: 'portion-note' }, "Laurence's portions are smaller.") : null,
     portions.length ? el('ul', { class: 'portions' }, portions.map(function (portion) {
       return el('li', { class: 'portion' },
         el('span', { class: 'portion-name' }, portion.name),
@@ -319,16 +333,23 @@ function emptyDay(title, iso) {
 }
 
 function renderDayPage(title, iso) {
-  const found = findDay(iso);
+  let found = findDay(iso);
+  let shifted = false;
+  if (!found) {
+    found = upcomingDay(iso);
+    shifted = Boolean(found);
+  }
   if (!found) {
     view.replaceChildren(emptyDay(title, iso));
     return;
   }
   const meals = dayMeals(found.day, 3);
+  const when = longDate(found.day.date) + (found.week.name ? ' · ' + found.week.name : '');
   view.replaceChildren(el('section', { class: 'stack' },
     el('div', {},
       el('h2', {}, title),
-      el('p', { class: 'lede' }, longDate(iso) + (found.week.name ? ' · ' + found.week.name : ''))
+      el('p', { class: 'lede' }, when),
+      shifted ? el('p', { class: 'fallback' }, 'Nothing is planned for ' + longDate(iso) + '. This is the next day in the plan.') : null
     ),
     meals.length ? el('div', { class: 'stack' }, meals) : el('div', { class: 'empty' }, el('p', {}, 'No meals on this day.'))
   ));
@@ -348,6 +369,15 @@ function weekTabs(selectedId, route) {
   );
 }
 
+function planNote() {
+  const text = plan && typeof plan.notes === 'string' ? plan.notes.trim() : '';
+  if (!text) return null;
+  return el('aside', { class: 'plan-note' },
+    el('p', { class: 'plan-note-label' }, 'Note'),
+    el('p', {}, text)
+  );
+}
+
 function renderWeek(weekId) {
   const week = weekById(weekId) || defaultWeek();
   const today = londonISODate(0);
@@ -357,6 +387,7 @@ function renderWeek(weekId) {
     el('p', { class: 'lede' }, week.days.length
       ? weekRange(week) + '. Tap a meal for ingredients and steps.'
       : 'No days in this week yet.'),
+    planNote(),
     weekTabs(week.id, 'week'),
     el('div', {}, week.days.map(function (day) {
       const badge = day.date === today
