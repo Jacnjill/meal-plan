@@ -1,0 +1,581 @@
+{
+  "currency": "GBP",
+  "weeks": [
+    {
+      "id": "2026-11-09",
+      "name": "Sample week",
+      "days": [
+        {
+          "date": "2026-11-09",
+          "weekday": "Monday",
+          "meals": {
+            "breakfast": {
+              "name": "Yoghurt with honey, walnuts, and berries",
+              "ingredients": [
+                { "item": "Greek yoghurt", "qty": "400g" },
+                { "item": "Honey", "qty": "2 tsp" },
+                { "item": "Walnuts", "qty": "30g" },
+                { "item": "Blueberries", "qty": "150g" }
+              ],
+              "steps": [
+                "Share the yoghurt between two bowls.",
+                "Top with blueberries and walnuts.",
+                "Drizzle the honey over the top."
+              ],
+              "portions": {
+                "raja": "A full bowl",
+                "laurence": "A smaller bowl"
+              },
+              "kcal": 420
+            },
+            "lunch": {
+              "name": "Lentil and tomato soup with bread",
+              "ingredients": [
+                { "item": "Red lentils", "qty": "200g" },
+                { "item": "Tinned tomatoes", "qty": "1 tin" },
+                { "item": "Onion", "qty": "1" },
+                { "item": "Carrot", "qty": "1" },
+                { "item": "Garlic", "qty": "2 cloves" },
+                { "item": "Vegetable stock", "qty": "750ml" },
+                { "item": "Olive oil", "qty": "1 tbsp" },
+                { "item": "Wholemeal bread", "qty": "2 slices" }
+              ],
+              "steps": [
+                "Warm the oil and soften the onion, carrot, and garlic for about 8 minutes.",
+                "Stir in the tomatoes, lentils, and stock. Simmer for 25 minutes, until the lentils are soft.",
+                "Loosen with a splash of water if you want, and season to taste.",
+                "Serve with bread. Cool the rest of the pot for Friday."
+              ],
+              "portions": {
+                "raja": "A deep bowl and a slice of bread",
+                "laurence": "A regular bowl and a slice of bread"
+              },
+              "kcal": 480
+            },
+            "dinner": {
+              "name": "Lemon chicken with rice and broccoli",
+              "ingredients": [
+                { "item": "Chicken thighs", "qty": "3" },
+                { "item": "Lemon", "qty": "1" },
+                { "item": "Garlic", "qty": "2 cloves" },
+                { "item": "Olive oil", "qty": "1 tbsp" },
+                { "item": "Basmati rice", "qty": "160g dry" },
+                { "item": "Broccoli", "qty": "1 head" }
+              ],
+              "steps": [
+                "Heat the oven to 200°C. Toss the chicken with oil, lemon zest and juice, and garlic.",
+                "Roast for 35 minutes, until the chicken is cooked through.",
+                "Simmer the rice until tender, then drain.",
+                "Steam the broccoli for the last 5 minutes. Plate it with the rice, chicken, and pan juices."
+              ],
+              "portions": {
+                "raja": "Two thighs and a generous scoop of rice",
+                "laurence": "One thigh and a regular scoop of rice"
+              },
+              "kcal": 640
+            }
+          }
+        },
+        {
+          "date": "2026-11-10",
+          "weekday": "Tuesday",
+          "meals": {
+            "breakfast": {
+              "name": "Porridge with banana and cinnamon",
+              "ingredients": [
+                { "item": "Porridge oats", "qty": "80g" },
+                { "item": "Milk", "qty": "500ml" },
+                { "item": "Banana", "qty": "1" },
+                { "item": "Cinnamon", "qty": "a pinch" }
+              ],
+              "steps": [
+                "Stir the oats and milk in a pan over a medium heat.",
+                "Simmer, stirring, for about 5 minutes until creamy.",
+                "Slice the banana over the top and dust with cinnamon."
+              ],
+              "portions": {
+                "raja": "A full bowl and half the banana",
+                "laurence": "A smaller bowl and half the banana"
+              },
+              "kcal": 390
+            },
+            "lunch": {
+              "name": "Hummus, roast peppers, and pitta",
+              "ingredients": [
+                { "item": "Peppers", "qty": "2" },
+                { "item": "Pitta breads", "qty": "3" },
+                { "item": "Hummus", "qty": "1 tub" },
+                { "item": "Cucumber", "qty": "half" },
+                { "item": "Olive oil", "qty": "1 tsp" }
+              ],
+              "steps": [
+                "Heat the oven to 200°C. Cut the peppers into strips, toss with oil, and roast for 20 minutes.",
+                "Warm the pittas.",
+                "Serve the hummus and peppers with cucumber on the side."
+              ],
+              "portions": {
+                "raja": "Two pittas",
+                "laurence": "One pitta"
+              },
+              "kcal": 520
+            },
+            "dinner": {
+              "name": "Salmon, new potatoes, and broccoli",
+              "ingredients": [
+                { "item": "Salmon fillets", "qty": "2" },
+                { "item": "New potatoes", "qty": "500g" },
+                { "item": "Broccoli", "qty": "1 small head" },
+                { "item": "Lemon", "qty": "half" },
+                { "item": "Butter", "qty": "a small knob" }
+              ],
+              "steps": [
+                "Boil the potatoes in salted water for about 15 minutes, until tender.",
+                "Heat the oven to 200°C and bake the salmon for 12 minutes.",
+                "Steam the broccoli.",
+                "Serve with butter on the potatoes and lemon on the salmon."
+              ],
+              "portions": {
+                "raja": "The larger fillet and a bigger share of the potatoes",
+                "laurence": "The smaller fillet and a regular share of the potatoes"
+              },
+              "kcal": 610
+            }
+          }
+        },
+        {
+          "date": "2026-11-11",
+          "weekday": "Wednesday",
+          "meals": {
+            "breakfast": {
+              "name": "Eggs on toast with tomatoes",
+              "ingredients": [
+                { "item": "Eggs", "qty": "3" },
+                { "item": "Wholemeal bread", "qty": "3 slices" },
+                { "item": "Tomatoes", "qty": "2" },
+                { "item": "Butter", "qty": "a scrape per slice" }
+              ],
+              "steps": [
+                "Toast the bread and butter it.",
+                "Fry or poach the eggs.",
+                "Halve the tomatoes and warm them in the same pan.",
+                "Serve the eggs and tomatoes on the toast."
+              ],
+              "portions": {
+                "raja": "Two eggs and two slices of toast",
+                "laurence": "One egg and one slice of toast"
+              },
+              "kcal": 430
+            },
+            "lunch": {
+              "name": "Cheddar and salad sandwich",
+              "ingredients": [
+                { "item": "Wholemeal bread", "qty": "6 slices" },
+                { "item": "Cheddar", "qty": "80g" },
+                { "item": "Salad leaves", "qty": "a handful" },
+                { "item": "Cucumber", "qty": "a few slices" },
+                { "item": "Tomato", "qty": "1" }
+              ],
+              "steps": [
+                "Slice the cheddar and tomato.",
+                "Build the sandwiches with leaves and cucumber.",
+                "Cut and serve."
+              ],
+              "portions": {
+                "raja": "Two sandwiches",
+                "laurence": "One sandwich"
+              },
+              "kcal": 510
+            },
+            "dinner": {
+              "name": "Chickpea and spinach curry with rice",
+              "ingredients": [
+                { "item": "Onion", "qty": "1" },
+                { "item": "Garlic", "qty": "2 cloves" },
+                { "item": "Fresh ginger", "qty": "a thumb" },
+                { "item": "Curry powder", "qty": "1 tbsp" },
+                { "item": "Tinned tomatoes", "qty": "1 tin" },
+                { "item": "Chickpeas", "qty": "2 tins, drained" },
+                { "item": "Spinach", "qty": "2 handfuls" },
+                { "item": "Basmati rice", "qty": "160g dry" },
+                { "item": "Olive oil", "qty": "1 tbsp" }
+              ],
+              "steps": [
+                "Soften the onion in oil, then stir in the garlic, ginger, and curry powder for a minute.",
+                "Add the tomatoes and chickpeas. Simmer for 15 minutes.",
+                "Stir through the spinach until it wilts.",
+                "Cook the rice and serve it beside the curry."
+              ],
+              "portions": {
+                "raja": "A full bowl of curry and rice",
+                "laurence": "A regular bowl of each"
+              },
+              "kcal": 580
+            }
+          }
+        },
+        {
+          "date": "2026-11-12",
+          "weekday": "Thursday",
+          "meals": {
+            "breakfast": {
+              "name": "Apple overnight oats",
+              "ingredients": [
+                { "item": "Porridge oats", "qty": "80g" },
+                { "item": "Milk", "qty": "300ml" },
+                { "item": "Greek yoghurt", "qty": "150g" },
+                { "item": "Apple", "qty": "1" },
+                { "item": "Cinnamon", "qty": "a pinch" }
+              ],
+              "steps": [
+                "The night before, stir the oats, milk, yoghurt, and cinnamon in two jars.",
+                "In the morning, grate or slice the apple over the top."
+              ],
+              "portions": {
+                "raja": "The larger jar",
+                "laurence": "The smaller jar"
+              },
+              "kcal": 400
+            },
+            "lunch": {
+              "name": "Spinach and tomato omelette",
+              "ingredients": [
+                { "item": "Eggs", "qty": "5" },
+                { "item": "Spinach", "qty": "a handful" },
+                { "item": "Tomatoes", "qty": "2" },
+                { "item": "Butter", "qty": "a small knob" }
+              ],
+              "steps": [
+                "Whisk the eggs.",
+                "Warm the tomatoes and spinach in butter until the spinach wilts.",
+                "Pour in the eggs and cook gently until just set, then fold and share."
+              ],
+              "portions": {
+                "raja": "About three eggs' worth",
+                "laurence": "About two eggs' worth"
+              },
+              "kcal": 450
+            },
+            "dinner": {
+              "name": "Turkey meatballs with pasta and salad",
+              "ingredients": [
+                { "item": "Turkey mince", "qty": "500g" },
+                { "item": "Onion", "qty": "half, finely chopped" },
+                { "item": "Garlic", "qty": "1 clove" },
+                { "item": "Pasta", "qty": "180g" },
+                { "item": "Salad leaves", "qty": "a bowlful" },
+                { "item": "Tomato", "qty": "1" },
+                { "item": "Olive oil", "qty": "1 tbsp" }
+              ],
+              "steps": [
+                "Mix the mince with the onion and garlic. Roll into small meatballs.",
+                "Fry them in oil until browned and cooked through, about 12 minutes.",
+                "Boil the pasta and toss it with the meatballs.",
+                "Serve with a tomato and leaf salad on the side."
+              ],
+              "portions": {
+                "raja": "A generous plate of pasta and meatballs",
+                "laurence": "A regular plate"
+              },
+              "kcal": 640
+            }
+          }
+        },
+        {
+          "date": "2026-11-13",
+          "weekday": "Friday",
+          "meals": {
+            "breakfast": {
+              "name": "Berry oat smoothie",
+              "ingredients": [
+                { "item": "Banana", "qty": "1" },
+                { "item": "Frozen mixed berries", "qty": "150g" },
+                { "item": "Porridge oats", "qty": "40g" },
+                { "item": "Milk", "qty": "400ml" }
+              ],
+              "steps": [
+                "Put everything in a blender.",
+                "Blend until smooth.",
+                "Pour into two glasses."
+              ],
+              "portions": {
+                "raja": "The taller glass",
+                "laurence": "The smaller glass"
+              },
+              "kcal": 370
+            },
+            "lunch": {
+              "name": "Lentil soup from Monday, with an apple",
+              "ingredients": [
+                { "item": "Leftover lentil and tomato soup", "qty": "2 mugs" },
+                { "item": "Apples", "qty": "2" }
+              ],
+              "steps": [
+                "Reheat the soup until it is piping hot.",
+                "Serve a mug each, with an apple."
+              ],
+              "portions": {
+                "raja": "A large mug and an apple",
+                "laurence": "A regular mug and an apple"
+              },
+              "kcal": 450
+            },
+            "dinner": {
+              "name": "Baked cod, couscous, and peppers",
+              "ingredients": [
+                { "item": "Cod fillets", "qty": "2" },
+                { "item": "Couscous", "qty": "120g" },
+                { "item": "Pepper", "qty": "1" },
+                { "item": "Lemon", "qty": "half" },
+                { "item": "Olive oil", "qty": "1 tbsp" },
+                { "item": "Fresh parsley", "qty": "a small handful" }
+              ],
+              "steps": [
+                "Heat the oven to 200°C. Slice the pepper, toss with oil, and roast for 15 minutes.",
+                "Nestle the cod among the peppers, add lemon, and bake for 12 minutes.",
+                "Cover the couscous with just-boiled water, cover the bowl, and leave it for 5 minutes.",
+                "Fluff the couscous, stir in the parsley, and serve the fish and peppers on top."
+              ],
+              "portions": {
+                "raja": "The larger fillet and a full scoop of couscous",
+                "laurence": "The smaller fillet and a regular scoop of couscous"
+              },
+              "kcal": 560
+            }
+          }
+        },
+        {
+          "date": "2026-11-14",
+          "weekday": "Saturday",
+          "meals": {
+            "breakfast": {
+              "name": "Mushrooms and eggs on toast",
+              "ingredients": [
+                { "item": "Mushrooms", "qty": "250g" },
+                { "item": "Eggs", "qty": "3" },
+                { "item": "Wholemeal bread", "qty": "3 slices" },
+                { "item": "Butter", "qty": "a knob" },
+                { "item": "Fresh parsley", "qty": "a few leaves" }
+              ],
+              "steps": [
+                "Slice the mushrooms and fry them in butter until golden.",
+                "Fry or poach the eggs.",
+                "Toast the bread.",
+                "Serve the mushrooms and eggs on the toast, with parsley on top."
+              ],
+              "portions": {
+                "raja": "Two eggs, a large share of the mushrooms, and two slices of toast",
+                "laurence": "One egg, a smaller share of the mushrooms, and one slice of toast"
+              },
+              "kcal": 480
+            },
+            "lunch": {
+              "name": "Jacket potato with beans and salad",
+              "ingredients": [
+                { "item": "Baking potatoes", "qty": "2" },
+                { "item": "Baked beans", "qty": "1 tin" },
+                { "item": "Cheddar", "qty": "a small grating" },
+                { "item": "Salad leaves", "qty": "a handful" },
+                { "item": "Cucumber", "qty": "a few slices" }
+              ],
+              "steps": [
+                "Heat the oven to 200°C. Prick the potatoes and bake for about an hour, until soft.",
+                "Heat the beans.",
+                "Split the potatoes, spoon over the beans, and add a little cheddar.",
+                "Serve with the salad."
+              ],
+              "portions": {
+                "raja": "The larger potato and extra beans",
+                "laurence": "The smaller potato"
+              },
+              "kcal": 540
+            },
+            "dinner": {
+              "name": "Chicken traybake with potatoes and carrots",
+              "ingredients": [
+                { "item": "Chicken thighs", "qty": "6" },
+                { "item": "New potatoes", "qty": "600g" },
+                { "item": "Carrots", "qty": "3" },
+                { "item": "Onion", "qty": "1" },
+                { "item": "Garlic", "qty": "2 cloves" },
+                { "item": "Lemon", "qty": "half" },
+                { "item": "Olive oil", "qty": "1 tbsp" }
+              ],
+              "steps": [
+                "Heat the oven to 200°C. Cut the potatoes, carrots, and onion into chunks.",
+                "Tumble them into a roasting tin with the chicken, garlic, lemon, and oil. Season.",
+                "Roast for 45 minutes, turning once, until the chicken is cooked and the potatoes are golden.",
+                "Keep the leftovers for Sunday lunch."
+              ],
+              "portions": {
+                "raja": "Two thighs and plenty of potatoes",
+                "laurence": "One thigh and a regular share of the vegetables"
+              },
+              "kcal": 680
+            }
+          }
+        },
+        {
+          "date": "2026-11-15",
+          "weekday": "Sunday",
+          "meals": {
+            "breakfast": {
+              "name": "Pancakes with berries and yoghurt",
+              "ingredients": [
+                { "item": "Plain flour", "qty": "150g" },
+                { "item": "Milk", "qty": "300ml" },
+                { "item": "Egg", "qty": "1" },
+                { "item": "Frozen mixed berries", "qty": "a handful, thawed" },
+                { "item": "Greek yoghurt", "qty": "200g" }
+              ],
+              "steps": [
+                "Whisk the flour, milk, and egg into a smooth batter.",
+                "Fry small pancakes in a lightly oiled pan until bubbles appear, then flip them.",
+                "Serve with yoghurt and berries."
+              ],
+              "portions": {
+                "raja": "Three pancakes",
+                "laurence": "Two pancakes"
+              },
+              "kcal": 450
+            },
+            "lunch": {
+              "name": "Saturday's chicken with salad",
+              "ingredients": [
+                { "item": "Leftover chicken traybake", "qty": "the remainder" },
+                { "item": "Salad leaves", "qty": "a handful" },
+                { "item": "Tomato", "qty": "1" },
+                { "item": "Olive oil", "qty": "a teaspoon" }
+              ],
+              "steps": [
+                "Warm the chicken and vegetables in the oven until hot.",
+                "Toss the leaves and tomato with a little oil.",
+                "Serve the warm traybake beside the salad."
+              ],
+              "portions": {
+                "raja": "A larger plate",
+                "laurence": "A regular plate"
+              },
+              "kcal": 520
+            },
+            "dinner": {
+              "name": "Egg fried rice with peas",
+              "ingredients": [
+                { "item": "Basmati rice", "qty": "160g dry, cooked and cooled" },
+                { "item": "Eggs", "qty": "3" },
+                { "item": "Frozen peas", "qty": "150g" },
+                { "item": "Carrot", "qty": "1, diced" },
+                { "item": "Onion", "qty": "half" },
+                { "item": "Garlic", "qty": "1 clove" },
+                { "item": "Soy sauce", "qty": "1 tbsp" },
+                { "item": "Olive oil", "qty": "1 tbsp" }
+              ],
+              "steps": [
+                "Cook the rice ahead if you can, and let it cool.",
+                "Fry the onion, carrot, and garlic in oil for a few minutes.",
+                "Add the rice and peas and stir until everything is hot.",
+                "Push the rice aside, scramble the eggs in the pan, then fold them through with the soy sauce."
+              ],
+              "portions": {
+                "raja": "A full bowl",
+                "laurence": "A smaller bowl"
+              },
+              "kcal": 590
+            }
+          }
+        }
+      ],
+      "shopping": [
+        {
+          "aisle": "Produce",
+          "estimatedCost": 19.4,
+          "items": [
+            { "item": "Bananas", "qty": "6" },
+            { "item": "Blueberries", "qty": "1 punnet" },
+            { "item": "Apples", "qty": "4" },
+            { "item": "Spinach", "qty": "1 bag" },
+            { "item": "Broccoli", "qty": "2 heads" },
+            { "item": "Tomatoes", "qty": "6" },
+            { "item": "Mushrooms", "qty": "250g" },
+            { "item": "Carrots", "qty": "500g" },
+            { "item": "New potatoes", "qty": "1.5kg" },
+            { "item": "Baking potatoes", "qty": "2" },
+            { "item": "Peppers", "qty": "3" },
+            { "item": "Onions", "qty": "5" },
+            { "item": "Garlic", "qty": "1 bulb" },
+            { "item": "Lemons", "qty": "3" },
+            { "item": "Salad leaves", "qty": "1 bag" },
+            { "item": "Cucumber", "qty": "1" },
+            { "item": "Fresh ginger", "qty": "1 small piece" },
+            { "item": "Fresh parsley", "qty": "1 bunch" }
+          ]
+        },
+        {
+          "aisle": "Dairy, eggs and chilled",
+          "estimatedCost": 10.5,
+          "items": [
+            { "item": "Greek yoghurt", "qty": "1kg" },
+            { "item": "Milk", "qty": "4 pints" },
+            { "item": "Eggs", "qty": "18" },
+            { "item": "Cheddar", "qty": "250g" },
+            { "item": "Butter", "qty": "250g" },
+            { "item": "Hummus", "qty": "1 tub" }
+          ]
+        },
+        {
+          "aisle": "Meat and fish",
+          "estimatedCost": 26.8,
+          "items": [
+            { "item": "Chicken thighs", "qty": "2 packs, about 9 thighs" },
+            { "item": "Salmon fillets", "qty": "2" },
+            { "item": "Cod fillets", "qty": "2" },
+            { "item": "Turkey mince", "qty": "500g" }
+          ]
+        },
+        {
+          "aisle": "Bakery",
+          "estimatedCost": 4.2,
+          "items": [
+            { "item": "Wholemeal loaf", "qty": "2" },
+            { "item": "Pitta breads", "qty": "4" }
+          ]
+        },
+        {
+          "aisle": "Grains and tins",
+          "estimatedCost": 12.4,
+          "items": [
+            { "item": "Porridge oats", "qty": "1kg" },
+            { "item": "Basmati rice", "qty": "1kg" },
+            { "item": "Couscous", "qty": "500g" },
+            { "item": "Pasta", "qty": "500g" },
+            { "item": "Plain flour", "qty": "500g" },
+            { "item": "Red lentils", "qty": "500g" },
+            { "item": "Tinned tomatoes", "qty": "3 tins" },
+            { "item": "Chickpeas", "qty": "2 tins" },
+            { "item": "Baked beans", "qty": "1 tin" },
+            { "item": "Vegetable stock cubes", "qty": "1 box" }
+          ]
+        },
+        {
+          "aisle": "Cupboard",
+          "estimatedCost": 6.8,
+          "items": [
+            { "item": "Honey", "qty": "1 jar" },
+            { "item": "Walnuts", "qty": "200g" },
+            { "item": "Olive oil", "qty": "1 bottle" },
+            { "item": "Curry powder", "qty": "1 jar" },
+            { "item": "Soy sauce", "qty": "1 bottle" },
+            { "item": "Cinnamon", "qty": "1 jar" }
+          ]
+        },
+        {
+          "aisle": "Frozen",
+          "estimatedCost": 3.9,
+          "items": [
+            { "item": "Mixed berries", "qty": "1 bag" },
+            { "item": "Peas", "qty": "1 bag" }
+          ]
+        }
+      ]
+    }
+  ]
+}

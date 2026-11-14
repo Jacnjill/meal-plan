@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en-GB">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="description" content="Weekly meals for Raja and Laurence. Today, tomorrow, the week, and a shopping list.">
+  <meta name="theme-color" content="#F3EADF" media="(prefers-color-scheme: light)">
+  <meta name="theme-color" content="#1C1612" media="(prefers-color-scheme: dark)">
+  <meta name="color-scheme" content="light dark">
+  <meta name="mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="default">
+  <meta name="apple-mobile-web-app-title" content="Meals">
+  <title>Meals · Raja &amp; Laurence</title>
+  <link rel="icon" href="favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="styles.css">
+  <script>
+    (function () {
+      var path = location.pathname;
+      if (path.endsWith('/')) return;
+      var last = path.split('/').pop();
+      if (last && last.indexOf('.') === -1) {
+        location.replace(path + '/' + location.search + location.hash);
+      }
+    })();
+  </script>
+</head>
+<body>
+  <a class="skip" href="#view">Skip to the meals</a>
+  <header class="site-header">
+    <div class="wrap brand">
+      <div class="brand-kicker">
+        <svg class="mark" viewBox="0 0 64 64" aria-hidden="true">
+          <circle cx="32" cy="32" r="30" fill="#F8EDD8"/>
+          <path d="M18 40c3 8 25 8 28 0" fill="none" stroke="#B5523A" stroke-width="3" stroke-linecap="round"/>
+          <path d="M22 32h20" stroke="#246046" stroke-width="3" stroke-linecap="round"/>
+          <path d="M24 25c2-4 14-4 16 0" fill="none" stroke="#8A5A12" stroke-width="3" stroke-linecap="round"/>
+        </svg>
+        <p class="eyebrow">Weekly meals</p>
+      </div>
+      <h1>Raja<br><span class="amp">&amp;</span> Laurence</h1>
+    </div>
+    <div class="wrap header-tools">
+      <p class="dateline" id="dateline">Checking the London date…</p>
+      <button type="button" class="linkish" id="jump-note">Send a note</button>
+    </div>
+  </header>
+  <nav class="nav" aria-label="Views">
+    <div class="wrap nav-inner">
+      <a href="#today" data-route="today">Today</a>
+      <a href="#tomorrow" data-route="tomorrow">Tomorrow</a>
+      <a href="#week" data-route="week">Week</a>
+      <a href="#shop" data-route="shop">Shopping</a>
+    </div>
+  </nav>
+  <p id="live" class="visually-hidden" aria-live="polite"></p>
+  <main id="view" class="wrap">
+    <p class="loading">Loading the plan…</p>
+  </main>
+  <section id="note" class="wrap note-section" aria-labelledby="note-heading"></section>
+  <footer class="site-footer">
+    <div class="wrap">
+      <p>Calories and shop prices are estimates. Today and tomorrow follow the date in London. This page is public.</p>
+    </div>
+  </footer>
+  <noscript>
+    <p class="wrap noscript">JavaScript is needed to show the meals. The plan itself is in data/plan.json.</p>
+  </noscript>
+  <script src="app.js"></script>
+</body>
+</html>
