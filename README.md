@@ -51,6 +51,9 @@ Edit [`data/plan.json`](data/plan.json). The page reads that file in the browser
 - `ingredients` are `{ "item", "qty" }`. `steps` are short lines of text.
 - `portions.raja` and `portions.laurence` say how each plate is served. The page notes that Laurence's portions are smaller.
 - `kcal` is Raja's approximate figure. The page shows it as `Raja ~380 kcal`. Calories are estimates.
+- `carbs` is optional: Raja's approximate carbohydrate grams for the meal. The page shows it next to the calories.
+- `laurenceSwap` is optional text for a meal where Laurence has a different side (she does not eat rice). The meal card shows it in its own box.
+- `label` is an optional short heading for the plan note (for example `Lower-carb, blood-sugar-friendly`).
 - `notes` is optional text on the whole plan. If you set it, the Week view shows it in an info box.
 - `shopping` is grouped by aisle. `estimatedCost` is a rough aisle total in pounds.
 - `id` is used for the week tab and for shopping ticks. Use a new id for each week.

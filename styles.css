@@ -667,3 +667,18 @@ button:disabled {
   .recipe > summary::after { display: none; }
   .recipe-body, .recipe > * { display: block !important; }
 }
+
+.swap {
+  margin: 0 0 0.85rem;
+  padding: 0.6rem 0.8rem;
+  border-radius: 12px;
+  background: var(--gold-soft);
+  border: 1px solid var(--line);
+  font-size: 1rem;
+}
+
+.swap-label {
+  display: block;
+  margin-bottom: 0.15rem;
+  font-weight: 800;
+}
