@@ -106,10 +106,12 @@ function portionEntries(portions) {
     .map(function (key) { return { name: personName(key), text: String(portions[key]) }; });
 }
 
-function kcalLabel(kcal) {
+function kcalLabel(kcal, carbs) {
   const number = Number(kcal);
   if (!Number.isFinite(number)) return '';
-  return 'Raja ~' + Math.round(number) + ' kcal';
+  const carbNumber = Number(carbs);
+  const carbText = carbs != null && Number.isFinite(carbNumber) ? ' · ~' + Math.round(carbNumber) + 'g carbs' : '';
+  return 'Raja ~' + Math.round(number) + ' kcal' + carbText;
 }
 
 function money(amount, currency) {
@@ -288,7 +290,8 @@ function recipeBlock(meal) {
 
 function mealCard(day, slot, label, meal, level) {
   const portions = portionEntries(meal.portions);
-  const kcal = kcalLabel(meal.kcal);
+  const kcal = kcalLabel(meal.kcal, meal.carbs);
+  const swap = typeof meal.laurenceSwap === 'string' ? meal.laurenceSwap.trim() : '';
   const title = el(level === 4 ? 'h4' : 'h3', { class: 'meal-name' }, meal.name || label);
   return el('article', { class: 'meal', 'data-slot': slot },
     el('p', { class: 'kicker' }, label),
@@ -301,6 +304,10 @@ function mealCard(day, slot, label, meal, level) {
         portion.text
       );
     })) : null,
+    swap ? el('p', { class: 'swap' },
+      el('span', { class: 'swap-label' }, "Laurence's swap"),
+      swap
+    ) : null,
     recipeBlock(meal),
     feedbackForm({
       date: day.date,
@@ -372,8 +379,9 @@ function weekTabs(selectedId, route) {
 function planNote() {
   const text = plan && typeof plan.notes === 'string' ? plan.notes.trim() : '';
   if (!text) return null;
+  const label = plan && typeof plan.label === 'string' ? plan.label.trim() : '';
   return el('aside', { class: 'plan-note' },
-    el('p', { class: 'plan-note-label' }, 'Note'),
+    el('p', { class: 'plan-note-label' }, label || 'Note'),
     el('p', {}, text)
   );
 }
